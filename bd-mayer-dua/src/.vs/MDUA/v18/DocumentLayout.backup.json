@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\downloads\\shareddbproject\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\downloads\\shareddbproject\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\downloads\\shareddbproject\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\wwwroot\\css\\combo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\wwwroot\\css\\combo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\downloads\\shareddbproject\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\downloads\\shareddbproject\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\downloads\\shareddbproject\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "layout.css",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\layout.css",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\wwwroot\\css\\layout.css",
+              "ToolTip": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\layout.css",
+              "RelativeToolTip": "MDUA.Web.UI\\wwwroot\\css\\layout.css",
+              "ViewState": "AgIAAF4BAAAAAAAAAAAYwIwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T10:41:23.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T10:37:31.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "combo.css",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\combo.css",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\wwwroot\\css\\combo.css",
+              "ToolTip": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\combo.css",
+              "RelativeToolTip": "MDUA.Web.UI\\wwwroot\\css\\combo.css",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAYwDgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-16T10:36:41.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAwwMYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T10:36:28.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T10:36:12.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T10:36:10.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

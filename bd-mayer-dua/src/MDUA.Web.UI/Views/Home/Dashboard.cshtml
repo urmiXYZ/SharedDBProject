@@ -1,0 +1,161 @@
+﻿@model MDUA.Entities.UserLoginResult
+@{
+    ViewData["Title"] = "Dashboard";
+    var canAddProduct = Model.AuthorizedActions?
+                            .Any(a => a.Trim().Equals("Product.Add", StringComparison.OrdinalIgnoreCase))
+                            ?? false;
+}
+
+<link rel="stylesheet" href="~/css/dashboard.css" />
+
+<div class="dashboard-wrapper">
+    <div class="dashboard-container">
+        <!-- Header Section -->
+        <div class="dashboard-header">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back, <strong>@Model.UserLogin.UserName</strong></p>
+                </div>
+                <div class="header-logout">
+                    <form method="post" asp-action="Logout">
+                        <button type="submit" class="btn-logout">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                <polyline points="16 17 21 12 16 7"></polyline>
+                                <line x1="21" y1="12" x2="9" y2="12"></line>
+                            </svg>
+                            Logout
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- User Info Card -->
+        <div class="info-card">
+            <div class="card-header-custom">
+                <div class="header-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <h2>User Information</h2>
+            </div>
+            <div class="card-body-custom">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">ID</span>
+                        <span class="info-value">@Model.UserLogin.Id</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Username</span>
+                        <span class="info-value">@Model.UserLogin.UserName</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email</span>
+                        <span class="info-value">@Model.UserLogin.Email</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Role</span>
+                        <span class="info-value role-badge">@Model.RoleName</span>
+                    </div>
+                </div>
+
+                @if (canAddProduct)
+                {
+                    <div class="action-section">
+                        <button type="button" class="btn-add-product" data-bs-toggle="modal" data-bs-target="#addProductModal">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            Add Product
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Authorized Actions Card -->
+        <div class="actions-card">
+            <div class="card-header-custom">
+                <div class="header-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                </div>
+                <h2>Authorized Actions</h2>
+            </div>
+            <div class="card-body-custom">
+                <div class="actions-list">
+                    @foreach (var act in Model.AuthorizedActions ?? new List<string>())
+                    {
+                        <div class="action-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>@act</span>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Product Modal -->
+<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content modal-custom">
+            <form method="post" asp-controller="Product" asp-action="Add">
+                <div class="modal-header modal-header-custom">
+                    <h5 class="modal-title" id="addProductModalLabel">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        </svg>
+                        Add New Product
+                    </h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body modal-body-custom">
+                    <div class="form-group-modal">
+                        <label for="ProductName" class="form-label-modal">Product Name</label>
+                        <input type="text" name="ProductName" class="form-control-modal" placeholder="Enter product name" required />
+                    </div>
+                    <div class="form-group-modal">
+                        <label for="BasePrice" class="form-label-modal">Base Price</label>
+                        <input type="number" step="0.01" name="BasePrice" class="form-control-modal" placeholder="0.00" required />
+                    </div>
+                    <div class="form-group-modal">
+                        <label for="Description" class="form-label-modal">Description</label>
+                        <textarea name="Description" class="form-control-modal" rows="3" placeholder="Enter product description"></textarea>
+                    </div>
+                    <div class="form-group-modal">
+                        <label for="ReorderLevel" class="form-label-modal">Reorder Level</label>
+                        <input type="number" name="ReorderLevel" class="form-control-modal" value="0" required />
+                    </div>
+                    <div class="form-check-modal">
+                        <input type="checkbox" name="IsActive" value="true" class="form-check-input-modal" id="IsActive" checked />
+                        <input type="hidden" name="IsActive" value="false" />
+                        <label class="form-check-label-modal" for="IsActive">Product is Active</label>
+                    </div>
+                </div>
+                <div class="modal-footer modal-footer-custom">
+                    <button type="button" class="btn-modal-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn-modal-primary">Add Product</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+}

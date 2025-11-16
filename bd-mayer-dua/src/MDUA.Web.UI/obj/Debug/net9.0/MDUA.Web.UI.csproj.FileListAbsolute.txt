@@ -1,0 +1,549 @@
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.runtime.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.endpoints.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.exe
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.deps.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.runtimeconfig.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Data.SqlClient.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.ServiceModel.Primitives.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\cs\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\de\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\es\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\fr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\it\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ja\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ko\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pl\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ru\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\tr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.pdb
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.pdb
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.pdb
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.pdb
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.AssemblyReference.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.CoreCompileInputs.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cs
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\bundle\MDUA.Web.UI.styles.css
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\projectbundle\MDUA.Web.UI.bundle.scp.css
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\t0crkthbki-{0}-lugek5hnai-lugek5hnai.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\7r1pq86ewv-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\o7t4h345k9-{0}-fr7q2aak1r-fr7q2aak1r.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vh1obefrer-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lcc979iopo-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ko880yysq8-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\sklmetxlxr-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\xft7tnj688-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0r7duhw2ei-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\trqgrjv0t2-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\u4kcpef9jz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\k3t5173qaj-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\aofu0td2o8-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ex8ny198zi-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\m80ye6e1gc-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\nrcvhy8xsq-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\hvonmxzoyx-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\t7g14v0o1v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\n0ht281b7a-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\wxuys855ez-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\s3zglppomk-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\z5yjd25wdq-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\420cfjda0u-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\elxkl1sn9l-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\qi0i9kvlpg-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\du4oh6zwnz-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\iv1zu0x9je-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\uwwfgj012y-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2p3ao83okn-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\z0njlfm2jw-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\a7t94nw7qb-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\pvg8y4ky4i-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0yxsyautc7-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\pe2xhnuk4i-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\494i9k8z62-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vranj32iuw-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\y379gqj14s-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2pc1l7a2uh-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\n0yf8sousf-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vm4jtjs6yn-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\rgxho9kuow-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ut5dvaexon-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\kfwlguk0cr-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\x2p81kd9xr-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\aafy9gj3lk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eejuok19lf-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\10r4vfyuzg-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\cqvyzqherd-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\wkfresoln7-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\obobwd79ux-{0}-l3n5xuwxn8-l3n5xuwxn8.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3c13enlh3a-{0}-ilo7uva0vt-ilo7uva0vt.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\go8fbnxijx-{0}-qlccset4i1-qlccset4i1.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\potxes1z3c-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ys04wh2pej-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\8ov6b21wga-{0}-xzw0cte36n-xzw0cte36n.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\gw8g6yw3zl-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\yxe5vgg95p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1dqeajpw99-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\y79cpm2v28-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\58uzzb5qja-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1j7qqayq01-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\x4qtx0k1lw-{0}-jfsiqqwiad-jfsiqqwiad.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\j3mavm4zo5-{0}-xjvjncp7xt-xjvjncp7xt.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\iabjqrwqxf-{0}-xjvjncp7xt-xjvjncp7xt.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.902BE205.Up2Date
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\refint\MDUA.Web.UI.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.genruntimeconfig.cache
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\ref\MDUA.Web.UI.dll
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\26b86ijy7f-{0}-e4uz0hfnas-e4uz0hfnas.gz
+C:\Users\Piistech\Desktop\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\83ey3ede38-{0}-qd9bj3otfc-qd9bj3otfc.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.runtime.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.endpoints.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.exe
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.deps.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.runtimeconfig.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.ServiceModel.Primitives.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\cs\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\de\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\es\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\fr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\it\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ja\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ko\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pl\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ru\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\tr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.pdb
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.pdb
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.pdb
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.pdb
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cache
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cs
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\bundle\MDUA.Web.UI.styles.css
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\projectbundle\MDUA.Web.UI.bundle.scp.css
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\b08js71c0d-e4uz0hfnas.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\l1lly9cgq4-lugek5hnai.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jagdb0dgi2-61n19gt1b8.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0u6c92owrn-w541uf1hdk.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\brr4wl8wl2-fr7q2aak1r.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\x27fn3u5n4-bqjiyaj88i.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\hyrpllcj5h-c2jlpeoesf.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0b08tw1ng5-erw9l3u2r3.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jzibury9yp-aexeepp0ev.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\21fiq5tt34-d7shbmvgxk.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\a617j99334-ausgxo2sd3.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\v6tqgzap1s-k8d9w2qqmf.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\5tre4pmsa0-cosvhxvwiu.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\rpyqse3i9t-ub07r2b239.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\rfa5af6jh8-fvhpjtyr6v.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\qg6sccomt6-b7pk76d08c.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vy923dk7ai-fsbi9cje9m.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eygdqoesda-rzd6atqjts.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\had0anwanh-ee0r1s7dh0.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\nzo0vb2d9x-dxx9fxp4il.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\75cbpo59ur-jd9uben2k1.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\z5qhxo4np2-khv3u5hwcm.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\oosjx0fbqc-r4e9w2rdcm.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0qwooa0vvn-lcd1t2u6c8.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\audrdwawcu-c2oey78nd0.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\5x2ae5mljg-tdbxkamptv.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\8e76irpwaz-j5mq2jizvt.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\edyxef87lu-06098lyss8.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3ejizmpwsj-nvvlpmu67g.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3weffpfr2u-s35ty4nyc5.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\p508stnhys-pj5nd1wqec.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2pgnvcfm07-46ein0sx1k.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\zv88hjgumf-v0zj4ognzu.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\4dj7ii2m70-37tfw0ft22.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ls0pfboeo9-hrwsygsryq.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\fs24wm0vhd-pk9g2wxc8p.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lw87jluim5-ft3s53vfgj.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\4he2ey26vy-6cfz1n2cew.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\zdwtwp0hkl-6pdc2jztkx.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eaml5n77y9-493y06b0oq.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\6bbi6o66qe-iovd86k7lj.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\pzmye5i1ah-vr1egmr9el.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\l8490kn4af-kbrnm935zg.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jf421w1ua7-jj8uyg4cgr.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ewjd1fh129-y7v9cxd14o.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\uv71rukovm-notf2xhcfb.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eq7voric2f-h1s4sie4z3.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lis83vygmg-63fj8s7r0e.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\moy32y7lby-0j3bgjxly4.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\tlq6jrya3c-47otxtyo56.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\d08daz1vkd-4v8eqarkd7.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\f3m2rdsb44-l3n5xuwxn8.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\fwnnu6q7gk-ilo7uva0vt.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2nq8ubj59r-qlccset4i1.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0mj8nod25c-lzl9nlhx6b.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\w989kyddsl-ag7o75518u.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\shbnagynva-xzw0cte36n.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\q6gwr0t04f-0i3buxo5is.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\k3ekpfol85-o1o13a6vjx.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\v8fgr6vl6q-ttgo8qnofa.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1rpijeiv1r-2z0ns9nrw6.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\qcgwpcljp1-muycvpuwrr.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\bl2gzcvv7q-87fc7y1x7t.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\w9rcc1sxhu-jfsiqqwiad.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\nqktqhy6ic-wwkxq3eq9x.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\n7z85817pb-wwkxq3eq9x.gz
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.MDUA.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.MDUA.Web.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.build.MDUA.Web.UI.props
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.MDUA.Web.UI.props
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.MDUA.Web.UI.props
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.902BE205.Up2Date
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\refint\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.genruntimeconfig.cache
+C:\Users\Asus\Downloads\MDua 1\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\ref\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.endpoints.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.runtime.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.exe
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.deps.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.runtimeconfig.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.ServiceModel.Primitives.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\cs\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\de\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\es\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\fr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\it\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ja\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ko\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pl\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ru\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\tr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.pdb
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.pdb
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.pdb
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.pdb
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cache
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cs
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\bundle\MDUA.Web.UI.styles.css
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\projectbundle\MDUA.Web.UI.bundle.scp.css
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\b08js71c0d-e4uz0hfnas.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\l1lly9cgq4-lugek5hnai.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jagdb0dgi2-61n19gt1b8.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0u6c92owrn-w541uf1hdk.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\brr4wl8wl2-fr7q2aak1r.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\x27fn3u5n4-bqjiyaj88i.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\hyrpllcj5h-c2jlpeoesf.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0b08tw1ng5-erw9l3u2r3.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jzibury9yp-aexeepp0ev.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\21fiq5tt34-d7shbmvgxk.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\a617j99334-ausgxo2sd3.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\v6tqgzap1s-k8d9w2qqmf.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\5tre4pmsa0-cosvhxvwiu.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\rpyqse3i9t-ub07r2b239.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\rfa5af6jh8-fvhpjtyr6v.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\qg6sccomt6-b7pk76d08c.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vy923dk7ai-fsbi9cje9m.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eygdqoesda-rzd6atqjts.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\had0anwanh-ee0r1s7dh0.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\nzo0vb2d9x-dxx9fxp4il.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\75cbpo59ur-jd9uben2k1.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\z5qhxo4np2-khv3u5hwcm.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\oosjx0fbqc-r4e9w2rdcm.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0qwooa0vvn-lcd1t2u6c8.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\audrdwawcu-c2oey78nd0.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\5x2ae5mljg-tdbxkamptv.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\8e76irpwaz-j5mq2jizvt.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\edyxef87lu-06098lyss8.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3ejizmpwsj-nvvlpmu67g.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3weffpfr2u-s35ty4nyc5.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\p508stnhys-pj5nd1wqec.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2pgnvcfm07-46ein0sx1k.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\zv88hjgumf-v0zj4ognzu.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\4dj7ii2m70-37tfw0ft22.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ls0pfboeo9-hrwsygsryq.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\fs24wm0vhd-pk9g2wxc8p.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lw87jluim5-ft3s53vfgj.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\4he2ey26vy-6cfz1n2cew.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\zdwtwp0hkl-6pdc2jztkx.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eaml5n77y9-493y06b0oq.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\6bbi6o66qe-iovd86k7lj.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\pzmye5i1ah-vr1egmr9el.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\l8490kn4af-kbrnm935zg.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jf421w1ua7-jj8uyg4cgr.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ewjd1fh129-y7v9cxd14o.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\uv71rukovm-notf2xhcfb.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eq7voric2f-h1s4sie4z3.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lis83vygmg-63fj8s7r0e.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\moy32y7lby-0j3bgjxly4.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\tlq6jrya3c-47otxtyo56.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\d08daz1vkd-4v8eqarkd7.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\f3m2rdsb44-l3n5xuwxn8.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\fwnnu6q7gk-ilo7uva0vt.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2nq8ubj59r-qlccset4i1.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0mj8nod25c-lzl9nlhx6b.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\w989kyddsl-ag7o75518u.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\shbnagynva-xzw0cte36n.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\q6gwr0t04f-0i3buxo5is.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\k3ekpfol85-o1o13a6vjx.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\v8fgr6vl6q-ttgo8qnofa.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1rpijeiv1r-2z0ns9nrw6.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\qcgwpcljp1-muycvpuwrr.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\bl2gzcvv7q-87fc7y1x7t.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\w9rcc1sxhu-jfsiqqwiad.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\nqktqhy6ic-wwkxq3eq9x.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\n7z85817pb-wwkxq3eq9x.gz
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.MDUA.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.MDUA.Web.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.build.MDUA.Web.UI.props
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.MDUA.Web.UI.props
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.MDUA.Web.UI.props
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.902BE205.Up2Date
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\refint\MDUA.Web.UI.dll
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.genruntimeconfig.cache
+C:\Users\Asus\Downloads\temp\MDua\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\ref\MDUA.Web.UI.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\appsettings.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.runtime.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.staticwebassets.endpoints.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.exe
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.deps.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.runtimeconfig.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Data.SqlClient.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\System.ServiceModel.Primitives.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\cs\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\de\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\es\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\fr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\it\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ja\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ko\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pl\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\pt-BR\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\ru\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\tr\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hans\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\zh-Hant\System.ServiceModel.Primitives.resources.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Facade.pdb
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.DataAccess.pdb
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Entities.pdb
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\bin\Debug\net9.0\MDUA.Framework.pdb
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.AssemblyReference.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.csproj.CoreCompileInputs.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.RazorAssemblyInfo.cs
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\bundle\MDUA.Web.UI.styles.css
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\projectbundle\MDUA.Web.UI.bundle.scp.css
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\26b86ijy7f-{0}-yyijiweftt-yyijiweftt.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\t0crkthbki-{0}-lugek5hnai-lugek5hnai.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\7r1pq86ewv-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\83ey3ede38-{0}-0nskzg97ek-0nskzg97ek.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\o7t4h345k9-{0}-fr7q2aak1r-fr7q2aak1r.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vh1obefrer-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lcc979iopo-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ko880yysq8-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\sklmetxlxr-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\xft7tnj688-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0r7duhw2ei-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\trqgrjv0t2-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\u4kcpef9jz-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\k3t5173qaj-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\aofu0td2o8-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ex8ny198zi-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\m80ye6e1gc-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\nrcvhy8xsq-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\hvonmxzoyx-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\t7g14v0o1v-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\n0ht281b7a-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\wxuys855ez-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\s3zglppomk-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\z5yjd25wdq-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\420cfjda0u-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\elxkl1sn9l-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\qi0i9kvlpg-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\du4oh6zwnz-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\iv1zu0x9je-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\uwwfgj012y-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2p3ao83okn-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\z0njlfm2jw-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\a7t94nw7qb-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\pvg8y4ky4i-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\0yxsyautc7-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\pe2xhnuk4i-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\494i9k8z62-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vranj32iuw-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\y379gqj14s-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\2pc1l7a2uh-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\n0yf8sousf-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vm4jtjs6yn-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\rgxho9kuow-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ut5dvaexon-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\kfwlguk0cr-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\x2p81kd9xr-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\aafy9gj3lk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\eejuok19lf-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\10r4vfyuzg-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\cqvyzqherd-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\wkfresoln7-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\obobwd79ux-{0}-l3n5xuwxn8-l3n5xuwxn8.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3c13enlh3a-{0}-ilo7uva0vt-ilo7uva0vt.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\go8fbnxijx-{0}-qlccset4i1-qlccset4i1.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\potxes1z3c-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ys04wh2pej-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\8ov6b21wga-{0}-xzw0cte36n-xzw0cte36n.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\gw8g6yw3zl-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\yxe5vgg95p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1dqeajpw99-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\y79cpm2v28-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\58uzzb5qja-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1j7qqayq01-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\x4qtx0k1lw-{0}-jfsiqqwiad-jfsiqqwiad.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\j3mavm4zo5-{0}-xjvjncp7xt-xjvjncp7xt.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\iabjqrwqxf-{0}-xjvjncp7xt-xjvjncp7xt.gz
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.902BE205.Up2Date
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\refint\MDUA.Web.UI.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.pdb
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.genruntimeconfig.cache
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\ref\MDUA.Web.UI.dll
+C:\Users\Piistech\Downloads\SharedDBProject\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jqy0z3kazy-{0}-jgp85ygb2s-jgp85ygb2s.gz
