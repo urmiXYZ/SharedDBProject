@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {}
+    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
+    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
         "projectName": "MDUA.Framework",
-        "projectPath": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
+        "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
         "packagesPath": "C:\\Users\\Piistech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piistech\\Downloads\\SharedDBProject\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\obj\\",
+        "outputPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

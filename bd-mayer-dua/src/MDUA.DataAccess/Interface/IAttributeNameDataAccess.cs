@@ -30,6 +30,8 @@ namespace MDUA.DataAccess.Interface
 
 
 	public interface IAttributeNameDataAccess : ICommonDataAccess<AttributeName, AttributeNameList, AttributeNameBase>
-	{ 
-	}	
+	{
+        List<AttributeValue> GetValuesByAttributeId(int attributeId);
+
+    }
 }

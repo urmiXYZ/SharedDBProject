@@ -1,35 +1,43 @@
-﻿using MDUA.DataAccess.Interface;
-using MDUA.Entities.List;
+﻿using MDUA.DataAccess;
+using MDUA.DataAccess.Interface;
 using MDUA.Entities;
+using MDUA.Entities.Bases;
+using MDUA.Entities.List;
 using MDUA.Facade.Interface;
 using MDUA.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using MDUA.Entities.Bases;
 
 namespace MDUA.Facade
 {
     public class ProductFacade : IProductFacade
     {
+        private readonly IAttributeNameDataAccess _attributeNameDataAccess;
         private readonly IProductDataAccess _ProductDataAccess;
         private readonly IProductImageDataAccess _ProductImageDataAccess;
         private readonly IProductReviewDataAccess _ProductReviewDataAccess;
         private readonly IProductVariantDataAccess _ProductVariantDataAccess;
         private readonly IProductDiscountDataAccess _ProductDiscountDataAccess;
+                private readonly IProductCategoryDataAccess _categoryDataAccess;
+
 
         public ProductFacade(
             IProductDataAccess productDataAccess,
             IProductImageDataAccess productImageDataAccess,
             IProductReviewDataAccess productReviewDataAccess,
             IProductVariantDataAccess productVariantDataAccess,
-            IProductDiscountDataAccess productDiscountDataAccess)
+            IProductDiscountDataAccess productDiscountDataAccess,
+                    IProductCategoryDataAccess categoryDataAccess,
+                    IAttributeNameDataAccess attributeNameDataAccess)
         {
             _ProductDataAccess = productDataAccess;
             _ProductImageDataAccess = productImageDataAccess;
             _ProductReviewDataAccess = productReviewDataAccess;
             _ProductVariantDataAccess = productVariantDataAccess;
             _ProductDiscountDataAccess = productDiscountDataAccess;
+            _categoryDataAccess = categoryDataAccess;
+            _attributeNameDataAccess = attributeNameDataAccess;
         }
 
         #region Common Implementation
@@ -92,23 +100,93 @@ namespace MDUA.Facade
             return product;
         }
 
-        public long AddProduct(ProductBase product, string username, int companyId)
+        public long AddProduct(Product product, string username, int companyId)
         {
             if (product == null)
                 throw new ArgumentNullException(nameof(product));
 
-            // Set required fields
+            // 1️⃣ Prepare product fields
             product.CompanyId = companyId;
             product.CreatedBy = username;
             product.UpdatedBy = username;
             product.CreatedAt = DateTime.Now;
             product.UpdatedAt = DateTime.Now;
             product.ReorderLevel = product.ReorderLevel < 0 ? 0 : product.ReorderLevel;
-            product.IsActive = product.IsActive;
 
-            return Insert(product); // call existing Insert
+            // 2️⃣ INSERT PRODUCT
+            long productId = _ProductDataAccess.Insert(product);
+
+            if (productId <= 0)
+                return productId;
+
+            // 3️⃣ INSERT VARIANTS
+            foreach (var variant in product.Variants)
+            {
+                variant.ProductId = (int)productId;
+                variant.CreatedBy = username;
+                variant.CreatedAt = DateTime.Now;
+
+                // Insert ProductVariant row
+                int variantId = _ProductVariantDataAccess.Insert(variant);
+
+                // 4️⃣ INSERT VARIANT ATTRIBUTE VALUES
+                if (variant.AttributeValueIds != null)
+                {
+                    int displayOrder = 0;
+
+                    foreach (int valueId in variant.AttributeValueIds)
+                    {
+                        _ProductVariantDataAccess.InsertVariantAttributeValue(
+                            variantId,
+                            valueId,
+                            displayOrder++
+                        );
+                    }
+                }
+            }
+
+            return productId;
         }
 
+        public ProductList GetLastFiveProducts()
+        {
+            return _ProductDataAccess.GetLastFiveProducts();
+        }
+
+        public List<Product> GetAllProductsWithCategory()
+        {
+            var products = _ProductDataAccess.GetAll(); // returns List<Product> or ProductList
+
+            // Get all categories in one query
+            var categories = _categoryDataAccess.GetAll().ToDictionary(c => c.Id, c => c.Name);
+
+            // Fill CategoryName for each product
+            foreach (var p in products)
+            {
+                if (p.CategoryId.HasValue && categories.ContainsKey(p.CategoryId.Value))
+                    p.CategoryName = categories[p.CategoryId.Value];
+                else
+                    p.CategoryName = "N/A";
+            }
+
+            return products.ToList();
+        }
+
+        public UserLoginResult GetAddProductData(int userId)
+        {
+            var result = new UserLoginResult
+            {
+                Categories = _categoryDataAccess.GetAll()?.ToList() ?? new List<ProductCategory>(),
+                Attributes = _attributeNameDataAccess.GetAll()?.ToList() ?? new List<AttributeName>()
+            };
+
+            return result;
+        }
+
+        public List<AttributeValue> GetAttributeValues(int attributeId)
+        {
+            return _attributeNameDataAccess.GetValuesByAttributeId(attributeId);
+        }
 
         #endregion
     }

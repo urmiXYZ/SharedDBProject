@@ -32,6 +32,8 @@ namespace MDUA.DataAccess.Interface
     public interface IProductDataAccess : ICommonDataAccess<Product, ProductList, ProductBase>
     {
         Product GetBySlug(string slug);
+        ProductList GetLastFiveProducts();
+
 
     }
 }

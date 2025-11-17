@@ -17,6 +17,7 @@ namespace MDUA.Facade
             services.AddScoped<IPermissionGroupDataAccess, PermissionGroupDataAccess>();    // ← If your facade needs it
             services.AddScoped<IUserPermissionDataAccess, UserPermissionDataAccess>();
             services.AddScoped<IPermissionDataAccess, PermissionDataAccess>();
+            services.AddScoped<IAttributeNameDataAccess, AttributeNameDataAccess>();
 
             // Product-related
             services.AddScoped<IProductDataAccess, ProductDataAccess>();
@@ -24,6 +25,8 @@ namespace MDUA.Facade
             services.AddScoped<IProductReviewDataAccess, ProductReviewDataAccess>();
             services.AddScoped<IProductVariantDataAccess, ProductVariantDataAccess>();
             services.AddScoped<IProductDiscountDataAccess, ProductDiscountDataAccess>();
+            services.AddScoped<IProductCategoryDataAccess, ProductCategoryDataAccess>();
+
 
             // Facade Layer
             services.AddServiceFacade();

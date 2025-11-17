@@ -1,13 +1,17 @@
-﻿using MDUA.Entities;
+﻿using MDUA.DataAccess.Interface;
+using MDUA.Entities;
+using MDUA.Entities.Bases;
 using MDUA.Entities.List;
+using MDUA.Framework.DataAccess;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace MDUA.DataAccess
 {
-    public partial class ProductVariantDataAccess
-    {
+    public partial class ProductVariantDataAccess : BaseDataAccess, IProductVariantDataAccess
+        {
         /// <summary>
         /// Inline SQL fallback for GetProductVariantsByProductId
         /// Joins VariantPriceStock (vps) on v.Id = vps.Id to get stock (StockQty) and price if needed.
@@ -70,5 +74,60 @@ namespace MDUA.DataAccess
 
             return list;
         }
+        public int Insert(ProductVariant variant)
+        {
+            using SqlCommand cmd = GetSPCommand("InsertProductVariant");
+
+            // OUTPUT
+            AddParameter(cmd, pInt32Out(ProductVariantBase.Property_Id));
+
+            // COMMON PARAMS
+            AddParameter(cmd, pInt32(ProductVariantBase.Property_ProductId, variant.ProductId));
+            AddParameter(cmd, pNVarChar(ProductVariantBase.Property_VariantName, 150, variant.VariantName));
+            AddParameter(cmd, pNVarChar(ProductVariantBase.Property_SKU, 50, variant.SKU));
+            AddParameter(cmd, pNVarChar(ProductVariantBase.Property_Barcode, 100, variant.Barcode));
+            AddParameter(cmd, pDecimal(ProductVariantBase.Property_VariantPrice, variant.VariantPrice));
+            AddParameter(cmd, pBool(ProductVariantBase.Property_IsActive, true));
+            AddParameter(cmd, pNVarChar(ProductVariantBase.Property_CreatedBy, 100, variant.CreatedBy));
+            AddParameter(cmd, pDateTime(ProductVariantBase.Property_CreatedAt, variant.CreatedAt));
+            AddParameter(cmd, pNVarChar(ProductVariantBase.Property_UpdatedBy, 100, null));
+            AddParameter(cmd, pDateTime(ProductVariantBase.Property_UpdatedAt, null));
+
+            // IMPORTANT: MDUA uses InsertRecord()
+            long result = InsertRecord(cmd);
+
+            if (result > 0)
+                return (int)GetOutParameter(cmd, ProductVariantBase.Property_Id);
+
+            return 0;
+        }
+
+
+        public void InsertVariantAttributeValue(int variantId, int attributeValueId, int displayOrder)
+        {
+            string SQLQuery = @"
+        INSERT INTO VariantAttributeValue (VariantId, AttributeId, AttributeValueId, DisplayOrder)
+        SELECT @VariantId, AttributeId, Id, @DisplayOrder
+        FROM AttributeValue
+        WHERE Id = @AttributeValueId";
+
+            using SqlCommand cmd = GetSQLCommand(SQLQuery);
+
+            AddParameter(cmd, pInt32("VariantId", variantId));
+            AddParameter(cmd, pInt32("AttributeValueId", attributeValueId));
+            AddParameter(cmd, pInt32("DisplayOrder", displayOrder));
+
+            SqlDataReader reader;
+            // This executes the INSERT
+            SelectRecords(cmd, out reader);
+
+            reader.Close();
+            reader.Dispose();
+        }
+
+
+
+
     }
 }
+

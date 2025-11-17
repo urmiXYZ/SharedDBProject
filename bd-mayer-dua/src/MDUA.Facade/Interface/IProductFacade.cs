@@ -12,8 +12,16 @@ namespace MDUA.Facade.Interface
     public interface IProductFacade : ICommonFacade<Product, ProductList, ProductBase>
     {
         // Extended methods for Product
-        long AddProduct(ProductBase product, string username, int companyId); // new method
+        long AddProduct(Product product, string username, int companyId);
 
         Product GetProductDetailsForWebBySlug(string slug);
+        ProductList GetLastFiveProducts();
+        List<Product> GetAllProductsWithCategory();
+        UserLoginResult GetAddProductData(int userId);
+        List<AttributeValue> GetAttributeValues(int attributeId);
+
+
+
+
     }
 }

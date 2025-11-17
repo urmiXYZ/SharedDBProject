@@ -11,6 +11,9 @@ namespace MDUA.Entities
         // but exposed here for the Facade to easily calculate total stock.
         [DataMember]
         public int StockQty { get; set; }
+        [DataMember]
+        public List<int> AttributeValueIds { get; set; } = new List<int>();
+
 
         // Add other properties that are fetched from VariantPriceStock if needed, e.g.:
         // [DataMember]

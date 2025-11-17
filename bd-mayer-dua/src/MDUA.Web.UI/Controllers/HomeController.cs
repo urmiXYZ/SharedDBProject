@@ -1,16 +1,23 @@
-using MDUA.Entities;
+﻿using MDUA.Entities;
+using MDUA.Entities.List;
+using MDUA.Facade;
 using MDUA.Facade.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
 
 public class HomeController : Controller
 {
     private readonly IUserLoginFacade _userLoginFacade;
+            private readonly IProductFacade _productFacade;
+
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(IUserLoginFacade userLoginFacade, ILogger<HomeController> logger)
+    public HomeController(IUserLoginFacade userLoginFacade, IProductFacade productFacade, ILogger<HomeController> logger)
     {
         _userLoginFacade = userLoginFacade;
+        _productFacade = productFacade;
+
         _logger = logger;
     }
 
@@ -51,18 +58,27 @@ public class HomeController : Controller
 
         var loginResult = _userLoginFacade.GetUserLoginById(userId.Value);
 
-        // This one line gets ALL permission names (like "Product.Add")
-        // and puts them in the list the view checks.
         loginResult.AuthorizedActions = _userLoginFacade.GetAllUserPermissionNames(userId.Value);
 
-        // You can now delete these old lines:
-        // loginResult.PermissionNames = _userLoginFacade.GetUserPermissionNamesByUserId(userId.Value);
-        // loginResult.AuthorizedActions = new List<string>();
-        // if (_userLoginFacade.IsUserAuthorized(userId.Value, "AddProduct"))
-        //     loginResult.AuthorizedActions.Add("Product.Add");
+        // Permission
+        loginResult.CanViewProducts = loginResult.AuthorizedActions.Contains("Product.View");
+        bool canAddProduct = loginResult.AuthorizedActions.Contains("Product.Add");
 
+
+        // Load product list only if allowed
+        if (loginResult.CanViewProducts)
+            loginResult.LastFiveProducts = _productFacade.GetLastFiveProducts();
+        if (canAddProduct)
+        {
+            var addProductData = _productFacade.GetAddProductData(userId.Value);
+            loginResult.Categories = addProductData.Categories;
+            loginResult.Attributes = addProductData.Attributes;
+        }
         return View(loginResult);
     }
+
+
+
 
 
 

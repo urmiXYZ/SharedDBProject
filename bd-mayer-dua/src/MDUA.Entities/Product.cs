@@ -4,9 +4,7 @@ using System.ServiceModel;
 
 using MDUA.Framework;
 using MDUA.Entities.Bases;
-using MDUA.Entities.List;
-    using MDUA.Entities;
-using MDUA.Entities.Bases;
+
 
 
 namespace MDUA.Entities
@@ -17,9 +15,6 @@ namespace MDUA.Entities
         public string CompanyName { get; set; }
         [DataMember]
         public List<ProductImage> Images { get; set; } = new List<ProductImage>();
-
-        [DataMember]
-        public List<ProductVariant> Variants { get; set; } = new List<ProductVariant>();
 
         [DataMember]
         public List<ProductReview> Reviews { get; set; } = new List<ProductReview>();
@@ -48,6 +43,13 @@ namespace MDUA.Entities
             TotalStockQuantity <= ReorderLevel
                 ? $"Only {TotalStockQuantity} left in stock!"
                 : $"In stock: {TotalStockQuantity}";
+        [DataMember]
+        public string CategoryName { get; set; }
+        [DataMember]
+        public List<int> AttributeValueIds { get; set; } = new List<int>();
+        [DataMember]
+        public List<ProductVariant> Variants { get; set; } = new List<ProductVariant>();
+
 
 
     }
@@ -60,6 +62,9 @@ namespace MDUA.Entities
         public string Message { get; set; }         // General status or error message
         public bool IsActive { get; set; }          // Convenience property for quick status access
         public string ErrorMessage { get; set; }
+        public string CategoryName { get; set; } // not stored in DB, populated in code
+
+        public List<ProductAttribute> AttributesForView { get; set; } = new List<ProductAttribute>();
 
     }
 }

@@ -25,6 +25,11 @@ namespace MDUA.Entities
         public List<int> ids { get; set; } = new List<int>();
         public List<string> PermissionNames { get; set; } = new List<string>();
         public List<string> AuthorizedActions { get; set; } = new List<string>();
+        public bool CanViewProducts { get; set; }
+        public List<Product> LastFiveProducts { get; set; } = new List<Product>();
+        public List<ProductCategory> Categories { get; set; } = new List<ProductCategory>();
+        public List<AttributeName> Attributes { get; set; } = new List<AttributeName>();
+
 
     }
 }

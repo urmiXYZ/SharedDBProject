@@ -12,5 +12,8 @@ namespace MDUA.DataAccess.Interface
         /// <param name="productId">The product ID.</param>
         /// <returns>List of ProductVariant.</returns>
         ProductVariantList GetByProductId(int productId);
+        int Insert(ProductVariant variant);
+        void InsertVariantAttributeValue(int variantId, int attributeValueId, int displayOrder);
+
     }
 }

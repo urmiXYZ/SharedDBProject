@@ -17,9 +17,9 @@ namespace MDUA.DataAccess
           AND IsActive = 1";
 
             using SqlCommand cmd = GetSQLCommand(SQLQuery);
-            AddParameter(cmd, pNVarChar("Slug", 400, _Slug)); 
+            AddParameter(cmd, pNVarChar("Slug", 400, _Slug));
 
-            return GetObject(cmd); 
+            return GetObject(cmd);
         }
 
 
@@ -65,6 +65,35 @@ namespace MDUA.DataAccess
 
             return GetObject(cmd);
         }
+
+        public ProductList GetLastFiveProducts()
+        {
+            string SQLQuery = @"
+        SELECT TOP 5
+            Id,
+            CompanyId,
+            ProductName,
+            ReorderLevel,
+            Barcode,
+            CategoryId,
+            Description,
+            Slug,
+            BasePrice,
+            IsVariantBased,
+            IsActive,
+            CreatedBy,
+            CreatedAt,
+            UpdatedBy,
+            UpdatedAt
+        FROM Product
+        WHERE IsActive = 1
+        ORDER BY CreatedAt DESC";
+
+            using SqlCommand cmd = GetSQLCommand(SQLQuery);
+
+            return GetList(cmd, 5);
+        }
+
 
     }
 }

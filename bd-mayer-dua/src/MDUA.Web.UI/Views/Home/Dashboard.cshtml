@@ -41,7 +41,7 @@
                         <circle cx="12" cy="7" r="4"></circle>
                     </svg>
                 </div>
-                <h2>User Information</h2>
+                <h2>Profile Information</h2>
             </div>
             <div class="card-body-custom">
                 <div class="info-grid">
@@ -63,20 +63,64 @@
                     </div>
                 </div>
 
-                @if (canAddProduct)
-                {
-                    <div class="action-section">
-                        <button type="button" class="btn-add-product" data-bs-toggle="modal" data-bs-target="#addProductModal">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="12" y1="5" x2="12" y2="19"></line>
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg>
-                            Add Product
-                        </button>
-                    </div>
-                }
+
             </div>
         </div>
+
+        @if (Model.CanViewProducts)
+        {
+            <div class="info-card">
+                <div class="card-header-custom">
+                    <div class="header-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h2>Recent Products</h2>
+                </div>
+
+                <div class="card-body-custom">
+                    <ul class="product-list">
+                        @foreach (var p in Model.LastFiveProducts)
+                        {
+                            <li class="product-item">
+                                <span>@p.ProductName</span>
+                                <span>-</span>
+                                <span class="date">@p.CreatedAt?.ToString("dd MMM yyyy")</span>
+                            </li>
+                        }
+                    </ul>
+
+                    <div class="action-section d-flex gap-2">
+                        @if (Model.CanViewProducts)
+                        {
+                            <a href="@Url.Action("AllProducts", "Product")" class="btn-view-products btn btn-outline-primary d-flex align-items-center gap-2">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 12h18M3 6h18M3 18h18"></path>
+                                </svg>
+                                <span>View All Products</span>
+                            </a>
+                        }
+
+                        @if (canAddProduct)
+                        {
+                            <button type="button" class="btn-add-product btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                                Add Product
+                            </button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
 
         <!-- Authorized Actions Card -->
         <div class="actions-card">
@@ -141,6 +185,40 @@
                         <label for="ReorderLevel" class="form-label-modal">Reorder Level</label>
                         <input type="number" name="ReorderLevel" class="form-control-modal" value="0" required />
                     </div>
+                    <div class="form-group-modal">
+    <label for="Slug" class="form-label-modal">Slug</label>
+    <input type="text" name="Slug" class="form-control-modal" placeholder="Enter slug (unique)" required />
+</div>
+
+                    <div class="form-group-modal">
+                        <label for="CategoryId" class="form-label-modal">Category</label>
+                        <select name="CategoryId" class="form-control-modal" required>
+                            <option value="">-- Select Category --</option>
+                            @foreach (var c in Model.Categories)
+                            {
+                                <option value="@c.Id">@c.Name</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div id="attributes-container">
+                        <div class="attribute-row mb-2" data-attr-index="0">
+                            <label class="form-label-modal">Attribute</label>
+                            <select name="Attributes[0].AttributeId" class="attribute-select form-control-modal">
+                                <option value="">-- Select Attribute --</option>
+                                @foreach (var a in Model.Attributes)
+                                {
+                                    <option value="@a.Id">@a.Name</option>
+                                }
+                            </select>
+                            <div class="attribute-values-container mt-2"></div>
+                        </div>
+                    </div>
+                    <button type="button" id="add-attribute" class="btn btn-sm btn-outline-primary mt-2">
+                        Add Another Attribute
+                    </button>
+
+                    <div id="variants-container" class="mt-3"></div>
                     <div class="form-check-modal">
                         <input type="checkbox" name="IsActive" value="true" class="form-check-input-modal" id="IsActive" checked />
                         <input type="hidden" name="IsActive" value="false" />
@@ -155,7 +233,6 @@
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="~/js/product.js"></script>
 
-@section Scripts {
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-}

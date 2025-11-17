@@ -35,11 +35,25 @@ namespace MDUA.Web.UI.Controllers
             return View(model);
         }
 
+        [Route("product/add")]
+        [HttpGet]
+        public IActionResult Add()
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return RedirectToAction("Index");
+
+            if (!_userLoginFacade.IsUserAuthorized(userId.Value, "Product.Add"))
+                return RedirectToAction("AccessDenied", "Home");
+
+            var model = _productFacade.GetAddProductData(userId.Value);
+
+            return View(model);
+        }
 
         [Route("product/add")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddProduct(ProductBase product)
+        public IActionResult AddProduct(Product product)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
             if (userId == null) return RedirectToAction("Index");
@@ -53,14 +67,42 @@ namespace MDUA.Web.UI.Controllers
                 HttpContext.Session.GetInt32("CompanyId") ?? 0
             );
 
-
-            if (newProductId > 0)
-                TempData["Success"] = "Product added successfully!";
-            else
-                TempData["Error"] = "Failed to add product.";
+            TempData[newProductId > 0 ? "Success" : "Error"] =
+                newProductId > 0 ? "Product added successfully!" : "Failed to add product.";
 
             return RedirectToAction("Dashboard", "Home");
         }
+
+        [Route("product/all")]
+        public IActionResult AllProducts()
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return RedirectToAction("Index", "Home");
+
+            if (!_userLoginFacade.IsUserAuthorized(userId.Value, "Product.View"))
+                return RedirectToAction("AccessDenied", "Home");
+
+            // now works
+            var products = _productFacade.GetAllProductsWithCategory();
+            return View(products);
+        }
+        [HttpGet]
+        [Route("product/get-attribute-values")]
+        public IActionResult GetAttributeValues(int attributeId)
+        {
+            var values = _productFacade.GetAttributeValues(attributeId);
+
+            var result = values.Select(v => new
+            {
+                id = v.Id,
+                value = v.Value
+            }).ToList();
+
+            return new JsonResult(result);
+        }
+
+
+
 
 
 
