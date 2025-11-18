@@ -41,5 +41,24 @@ namespace MDUA.DataAccess
         }
 
 
+        public List<AttributeName> GetByProductId(int productId)
+        {
+            // This joins the AttributeName table with the ProductAttribute table
+            // to get ONLY the attributes used by this specific product.
+            string SQLQuery = @"
+        SELECT DISTINCT a.Id, a.Name
+        FROM AttributeName a
+        JOIN ProductAttribute pa ON a.Id = pa.AttributeId
+        WHERE pa.ProductId = @ProductId
+        ORDER BY a.Name";
+
+            using (SqlCommand cmd = GetSQLCommand(SQLQuery))
+            {
+                AddParameter(cmd, pInt32("ProductId", productId));
+                // Pass 0 as the second argument to get all rows
+                return GetList(cmd, 0);
+            }
+        }
+
     }
 }

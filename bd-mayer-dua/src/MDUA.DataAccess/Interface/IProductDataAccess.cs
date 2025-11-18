@@ -33,7 +33,8 @@ namespace MDUA.DataAccess.Interface
     {
         Product GetBySlug(string slug);
         ProductList GetLastFiveProducts();
-
+        bool? ToggleStatus(int productId);
+        Product GetProductById(int id);
 
     }
 }

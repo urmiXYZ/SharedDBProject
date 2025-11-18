@@ -1,0 +1,125 @@
+﻿@model MDUA.Entities.Product
+
+<link rel="stylesheet" href="~/css/product-details.css" />
+
+<div class="product-details-container">
+    @if (Model != null)
+    {
+        <div class="product-details-card">
+            <div class="details-header">
+                <div class="details-header-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <h4>Product Information</h4>
+            </div>
+            <hr class="details-divider" />
+
+            <div class="details-body">
+                <dl class="details-list">
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Product Name</dt>
+                        <dd class="col-sm-9 details-value">@Model.ProductName</dd>
+                    </div>
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Category</dt>
+                        <dd class="col-sm-9 details-value">
+                            <span class="category-tag">@Model.CategoryName</span>
+                        </dd>
+                    </div>
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Base Price</dt>
+                        <dd class="col-sm-9 details-value">
+                            <span class="price-value">@Model.BasePrice?.ToString("N2")</span>
+                        </dd>
+                    </div>
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Slug</dt>
+                        <dd class="col-sm-9 details-value">
+                            <span class="slug-badge">@Model.Slug</span>
+                        </dd>
+                    </div>
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Description</dt>
+                        <dd class="col-sm-9 details-value">@(Model.Description ?? "N/A")</dd>
+                    </div>
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Status</dt>
+                        <dd class="col-sm-9 details-value">
+                            <span class="status-badge @(Model.IsActive ? "status-active" : "status-inactive")">
+                                @(Model.IsActive ? "Active" : "Inactive")
+                            </span>
+                        </dd>
+                    </div>
+                    <div class="row">
+                        <dt class="col-sm-3 details-label">Reorder Level</dt>
+                        <dd class="col-sm-9 details-value">@Model.ReorderLevel</dd>
+                    </div>
+                </dl>
+
+                <div class="variants-section">
+                    <div class="variants-header">
+                        <div class="variants-header-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </div>
+                        <h4>Product Variants</h4>
+                    </div>
+
+                    @if (Model.Variants != null && Model.Variants.Any())
+                    {
+                        <div class="variants-table-wrapper">
+                            <table class="variants-table">
+                                <thead>
+                                    <tr>
+                                        <th>Variant Name</th>
+                                        <th>SKU</th>
+                                        <th>Price</th>
+                                        <th>Stock</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var v in Model.Variants)
+                                    {
+                                        var stockClass = v.StockQty > 50 ? "stock-high" : v.StockQty > 10 ? "stock-medium" : "stock-low";
+                                        <tr>
+                                            <td>@v.VariantName</td>
+                                            <td><span class="variant-sku">@(v.SKU ?? "N/A")</span></td>
+                                            <td><span class="variant-price">Tk. @v.VariantPrice?.ToString("N2")</span></td>
+                                            <td><span class="variant-stock @stockClass">@v.StockQty</span></td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="empty-state">
+                            <svg class="empty-state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="8" x2="12" y2="12"></line>
+                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                            </svg>
+                            <h5>No Variants Available</h5>
+                            <p>This product does not have any variants.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="error-message">
+            Could not load product details. Please try again.
+        </div>
+    }
+</div>

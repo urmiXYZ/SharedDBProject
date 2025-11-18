@@ -8,6 +8,7 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwr
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-form.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.min.js
@@ -25,6 +26,7 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwr
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-details.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\login.css
@@ -47,8 +49,10 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwr
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\site.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\products.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\products-index.js
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -70,6 +74,9 @@ wwwroot\css\combo.css
 wwwroot\css\dashboard.css
 wwwroot\css\layout.css
 wwwroot\css\login.css
+wwwroot\css\product-details.css
+wwwroot\css\product-form.css
+wwwroot\css\products.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\all.webp
@@ -80,6 +87,7 @@ wwwroot\images\pic2.webp
 wwwroot\images\pic3.webp
 wwwroot\js\combo.js
 wwwroot\js\product.js
+wwwroot\js\products-index.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

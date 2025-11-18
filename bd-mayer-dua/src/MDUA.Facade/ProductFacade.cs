@@ -19,8 +19,9 @@ namespace MDUA.Facade
         private readonly IProductReviewDataAccess _ProductReviewDataAccess;
         private readonly IProductVariantDataAccess _ProductVariantDataAccess;
         private readonly IProductDiscountDataAccess _ProductDiscountDataAccess;
-                private readonly IProductCategoryDataAccess _categoryDataAccess;
-
+        private readonly IProductCategoryDataAccess _categoryDataAccess;
+        private readonly IProductAttributeDataAccess _productAttributeDataAccess;
+        private readonly IVariantPriceStockDataAccess _variantPriceStockDataAccess;
 
         public ProductFacade(
             IProductDataAccess productDataAccess,
@@ -28,8 +29,10 @@ namespace MDUA.Facade
             IProductReviewDataAccess productReviewDataAccess,
             IProductVariantDataAccess productVariantDataAccess,
             IProductDiscountDataAccess productDiscountDataAccess,
-                    IProductCategoryDataAccess categoryDataAccess,
-                    IAttributeNameDataAccess attributeNameDataAccess)
+            IProductCategoryDataAccess categoryDataAccess,
+            IAttributeNameDataAccess attributeNameDataAccess,
+            IProductAttributeDataAccess productAttributeDataAccess,
+            IVariantPriceStockDataAccess variantPriceStockDataAccess)
         {
             _ProductDataAccess = productDataAccess;
             _ProductImageDataAccess = productImageDataAccess;
@@ -38,6 +41,8 @@ namespace MDUA.Facade
             _ProductDiscountDataAccess = productDiscountDataAccess;
             _categoryDataAccess = categoryDataAccess;
             _attributeNameDataAccess = attributeNameDataAccess;
+            _productAttributeDataAccess = productAttributeDataAccess;
+            _variantPriceStockDataAccess = variantPriceStockDataAccess;
         }
 
         #region Common Implementation
@@ -119,6 +124,20 @@ namespace MDUA.Facade
             if (productId <= 0)
                 return productId;
 
+            if (product.Attributes != null)
+            {
+                int displayOrder = 1;
+                foreach (var attr in product.Attributes)
+                {
+                    // The binder only set AttributeId, we set the rest
+                    attr.ProductId = (int)productId;
+                    attr.DisplayOrder = displayOrder++;
+
+                    // Call the new DA class to insert
+                    _productAttributeDataAccess.Insert(attr);
+                }
+            }
+
             // 3️⃣ INSERT VARIANTS
             foreach (var variant in product.Variants)
             {
@@ -128,11 +147,28 @@ namespace MDUA.Facade
 
                 // Insert ProductVariant row
                 int variantId = _ProductVariantDataAccess.Insert(variant);
+                if (variantId > 0)
+                {
+                    var vps = new VariantPriceStock
+                    {
+                        Id = variantId, // Use the new Variant ID
+                        Price = variant.VariantPrice ?? 0, // Get price from the form
+                        CompareAtPrice = null, // Default
+                        CostPrice = null, // Default
+                        StockQty = 0, // Default stock is 0
+                        TrackInventory = true, // Default from your table
+                        AllowBackorder = false, // Default from your table
+                        WeightGrams = null // Default
+                    };
+
+                    // Call the new DA class to insert
+                    _variantPriceStockDataAccess.Insert(vps);
+                }
 
                 // 4️⃣ INSERT VARIANT ATTRIBUTE VALUES
                 if (variant.AttributeValueIds != null)
                 {
-                    int displayOrder = 0;
+                    int displayOrder = 1;
 
                     foreach (int valueId in variant.AttributeValueIds)
                     {
@@ -188,6 +224,117 @@ namespace MDUA.Facade
             return _attributeNameDataAccess.GetValuesByAttributeId(attributeId);
         }
 
+        public ProductVariantList GetVariantsByProductId(int productId)
+        {
+            // You already have this method in ProductVariantDataAccess
+            return _ProductVariantDataAccess.GetProductVariantsByProductId(productId);
+        }
+
+        public bool? ToggleProductStatus(int productId)
+        {
+            // Simply pass the call down to the DA layer
+            return _ProductDataAccess.ToggleStatus(productId);
+        }
+
+        public Product GetProductDetails(int productId)
+        {
+            // 1. Get the base product
+            // We use GetProductById, which you already have.
+            Product product = _ProductDataAccess.GetProductById(productId);
+            if (product == null)
+            {
+                return null;
+            }
+
+            // 2. Get its variants
+            // We use GetProductVariantsByProductId, which you also have.
+            product.Variants = _ProductVariantDataAccess.GetProductVariantsByProductId(productId).ToList();
+
+            // 3. Get its category name
+            if (product.CategoryId.HasValue)
+            {
+                // Assuming _categoryDataAccess.Get(id) exists
+                var category = _categoryDataAccess.Get(product.CategoryId.Value);
+                product.CategoryName = category?.Name ?? "N/A";
+            }
+            else
+            {
+                product.CategoryName = "N/A";
+            }
+
+            return product;
+        }
+        // ... inside the ProductFacade class
+
+        public ProductResult GetProductForEdit(int productId)
+        {
+            var model = new ProductResult
+            {
+                // ✅ THIS IS THE FIX
+                Product = _ProductDataAccess.Get(productId),
+
+                Categories = _categoryDataAccess.GetAll()?.ToList() ?? new List<ProductCategory>()
+            };
+
+            return model;
+        }
+
+        // This method is unchanged and still correct
+        public long UpdateProduct(Product product, string username)
+        {
+            product.UpdatedBy = username;
+            product.UpdatedAt = DateTime.Now;
+            return _ProductDataAccess.Update(product);
+        }
+        public long UpdateVariantPrice(int variantId, decimal newPrice)
+        {
+            // Pass only the ID and the new Price
+            return _variantPriceStockDataAccess.UpdatePrice(variantId, newPrice);
+        }
+        public long DeleteVariant(int variantId)
+        {
+            // ✅ Use the existing .Delete() method
+            // Since your database has "ON DELETE CASCADE", 
+            // this simple delete is all you need.
+            return _ProductVariantDataAccess.Delete(variantId);
+        }
+
+        public List<AttributeName> GetAttributesForProduct(int productId)
+        {
+            return _attributeNameDataAccess.GetByProductId(productId);
+        }
+
+        // Ensure you have this method to handle the saving
+        public long AddVariantToExistingProduct(ProductVariant variant)
+        {
+            // 1. Insert Variant
+            int variantId = _ProductVariantDataAccess.Insert(variant);
+
+            if (variantId > 0)
+            {
+                // 2. Insert Price/Stock
+                var vps = new VariantPriceStock
+                {
+                    Id = variantId,
+                    Price = variant.VariantPrice ?? 0,
+                    StockQty = variant.StockQty,
+                    TrackInventory = true,
+                    AllowBackorder = false
+                };
+                _variantPriceStockDataAccess.Insert(vps);
+
+                // 3. Insert Attributes
+                if (variant.AttributeValueIds != null)
+                {
+                    int displayOrder = 1;
+                    foreach (int valueId in variant.AttributeValueIds)
+                    {
+                        _ProductVariantDataAccess.InsertVariantAttributeValue(variantId, valueId, displayOrder++);
+                    }
+                }
+            }
+            return variantId;
+        }
         #endregion
     }
 }

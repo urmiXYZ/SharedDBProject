@@ -30,6 +30,7 @@ namespace MDUA.DataAccess.Interface
 
 
 	public interface IProductAttributeDataAccess : ICommonDataAccess<ProductAttribute, ProductAttributeList, ProductAttributeBase>
-	{ 
-	}	
+	{
+        int Insert(ProductAttribute attribute);
+    }	
 }

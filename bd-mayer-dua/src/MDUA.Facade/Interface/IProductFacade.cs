@@ -19,9 +19,16 @@ namespace MDUA.Facade.Interface
         List<Product> GetAllProductsWithCategory();
         UserLoginResult GetAddProductData(int userId);
         List<AttributeValue> GetAttributeValues(int attributeId);
+        ProductVariantList GetVariantsByProductId(int productId);
 
-
-
-
+        bool? ToggleProductStatus(int productId);
+        Product GetProductDetails(int productId);
+        ProductResult GetProductForEdit(int productId);
+        long UpdateProduct(Product product, string username);
+        long UpdateVariantPrice(int variantId, decimal newPrice);
+        long DeleteVariant(int variantId);
+        List<AttributeName> GetAttributesForProduct(int productId);
+        // Also ensure you have the AddVariantToExistingProduct signature from previous steps
+        long AddVariantToExistingProduct(ProductVariant variant);
     }
 }

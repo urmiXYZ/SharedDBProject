@@ -49,8 +49,16 @@ namespace MDUA.Entities
         public List<int> AttributeValueIds { get; set; } = new List<int>();
         [DataMember]
         public List<ProductVariant> Variants { get; set; } = new List<ProductVariant>();
+        [DataMember]
+        public List<ProductAttribute> Attributes { get; set; } = new List<ProductAttribute>();
+        // Inside your Product or ProductBase class
+        [DataMember]
+        public bool? IsVariantBased { get; set; } = true; // <-- Set default value here
+        [DataMember]
+        public string AttributeName { get; set; }
 
-
+        [DataMember]
+        public List<AttributeValue> PossibleValues { get; set; } = new List<AttributeValue>();
 
     }
 
@@ -65,6 +73,6 @@ namespace MDUA.Entities
         public string CategoryName { get; set; } // not stored in DB, populated in code
 
         public List<ProductAttribute> AttributesForView { get; set; } = new List<ProductAttribute>();
-
+        public List<ProductCategory> Categories { get; set; } = new List<ProductCategory>();
     }
 }

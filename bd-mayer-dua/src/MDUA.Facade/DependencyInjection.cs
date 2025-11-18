@@ -26,7 +26,8 @@ namespace MDUA.Facade
             services.AddScoped<IProductVariantDataAccess, ProductVariantDataAccess>();
             services.AddScoped<IProductDiscountDataAccess, ProductDiscountDataAccess>();
             services.AddScoped<IProductCategoryDataAccess, ProductCategoryDataAccess>();
-
+            services.AddScoped<IProductAttributeDataAccess, ProductAttributeDataAccess>();
+            services.AddTransient<IVariantPriceStockDataAccess, VariantPriceStockDataAccess>();
 
             // Facade Layer
             services.AddServiceFacade();
