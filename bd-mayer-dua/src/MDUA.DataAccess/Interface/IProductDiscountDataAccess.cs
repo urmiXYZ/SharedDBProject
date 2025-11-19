@@ -12,5 +12,6 @@ namespace MDUA.DataAccess.Interface
         /// <param name="productId">The product ID.</param>
         /// <returns>Active ProductDiscount or null.</returns>
         ProductDiscount GetActiveDiscount(int productId);
+        ProductDiscountList GetByProductId(int productId);
     }
 }

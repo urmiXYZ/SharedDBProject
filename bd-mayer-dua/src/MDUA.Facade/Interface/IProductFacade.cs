@@ -1,11 +1,12 @@
-﻿using MDUA.Entities.Bases;
+﻿using MDUA.Entities;
+using MDUA.Entities.Bases;
 using MDUA.Entities.List;
-using MDUA.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static MDUA.Entities.ProductVariant;
 
 namespace MDUA.Facade.Interface
 {
@@ -25,10 +26,18 @@ namespace MDUA.Facade.Interface
         Product GetProductDetails(int productId);
         ProductResult GetProductForEdit(int productId);
         long UpdateProduct(Product product, string username);
-        long UpdateVariantPrice(int variantId, decimal newPrice);
+        long UpdateVariantPrice(int variantId, decimal newPrice, string newSku);
         long DeleteVariant(int variantId);
         List<AttributeName> GetAttributesForProduct(int productId);
-        // Also ensure you have the AddVariantToExistingProduct signature from previous steps
         long AddVariantToExistingProduct(ProductVariant variant);
+        ProductVariantResult GetVariantsWithAttributes(int productId);
+        List<AttributeName> GetMissingAttributesForVariant(int productId, int variantId);
+
+        void AddAttributeToVariant(int variantId, int attributeValueId);
+        List<ProductDiscount> GetDiscountsByProductId(int productId);
+        long AddDiscount(ProductDiscount discount);
+        long UpdateDiscount(ProductDiscount discount);
+        long DeleteDiscount(int id);
+        Product GetProductWithPrice(int productId);
     }
 }

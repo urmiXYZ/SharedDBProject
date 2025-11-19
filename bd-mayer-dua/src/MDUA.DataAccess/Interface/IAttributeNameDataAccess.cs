@@ -33,6 +33,7 @@ namespace MDUA.DataAccess.Interface
 	{
         List<AttributeValue> GetValuesByAttributeId(int attributeId);
         List<AttributeName> GetByProductId(int productId);
-
+        List<AttributeName> GetMissingAttributesForVariant(int productId, int variantId);
+        string GetValueName(int valueId);
     }
 }

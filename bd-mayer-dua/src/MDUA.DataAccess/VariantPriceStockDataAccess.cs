@@ -34,12 +34,12 @@ namespace MDUA.DataAccess
             return (int)result; // Returns the row count (1 if successful)
         }
 
-        public long UpdatePrice(int variantId, decimal price)
+        public long UpdatePrice(int variantId, decimal price, string sku)
         {
-            // We use the batch update + SELECT 1 trick
+            // We update SKU in ProductVariant and Price in BOTH tables
             string SQLQuery = @"
         UPDATE ProductVariant 
-        SET VariantPrice = @Price, UpdatedAt = GETDATE() 
+        SET VariantPrice = @Price, SKU = @SKU, UpdatedAt = GETDATE() 
         WHERE Id = @Id;
 
         UPDATE VariantPriceStock 
@@ -52,22 +52,17 @@ namespace MDUA.DataAccess
             {
                 AddParameter(cmd, pInt32("Id", variantId));
                 AddParameter(cmd, pDecimal("Price", price));
+                AddParameter(cmd, pNVarChar("SKU", 50, sku)); // Add SKU Parameter
 
-                // ✅ Step 1: Declare the variable explicitly
                 SqlDataReader reader;
-
-                // ✅ Step 2: Pass it to the method
                 long result = SelectRecords(cmd, out reader);
 
-                // ✅ Step 3: Clean up
-                // We verify 'reader' exists before closing it
                 if (reader != null)
                 {
                     reader.Close();
                     reader.Dispose();
                 }
 
-                // Return 1 so the Controller knows it succeeded
                 return 1;
             }
         }

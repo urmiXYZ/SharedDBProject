@@ -60,5 +60,76 @@ namespace MDUA.DataAccess
             }
         }
 
+        public List<AttributeName> GetMissingAttributesForVariant(int productId, int variantId)
+        {
+            var list = new List<AttributeName>();
+
+            // ✅ Direct SQL: Selects attributes NOT linked to this variant
+            string SQLQuery = @"
+        SELECT Id, Name 
+        FROM AttributeName 
+        WHERE Id NOT IN (
+            SELECT AttributeId 
+            FROM VariantAttributeValue 
+            WHERE VariantId = @VariantId
+        )
+        ORDER BY Name";
+
+            using (SqlCommand cmd = GetSQLCommand(SQLQuery))
+            {
+                // Your helper adds '@' automatically, so we pass "VariantId"
+                AddParameter(cmd, pInt32("VariantId", variantId));
+
+                // ✅ Use SelectRecords (Raw Reader) instead of GetList
+                SqlDataReader reader;
+                SelectRecords(cmd, out reader);
+
+                using (reader)
+                {
+                    while (reader.Read())
+                    {
+                        list.Add(new AttributeName
+                        {
+                            Id = reader.GetInt32(0), // Index 0 = Id
+                            Name = reader.GetString(1) // Index 1 = Name
+                        });
+                    }
+                    reader.Close();
+                }
+            }
+
+            return list;
+        }
+
+        public string GetValueName(int valueId)
+        {
+            string SQLQuery = "SELECT Value FROM AttributeValue WHERE Id = @Id";
+
+            using (SqlCommand cmd = GetSQLCommand(SQLQuery))
+            {
+                AddParameter(cmd, pInt32("Id", valueId));
+
+                // ✅ Use SelectRecords instead of ExecuteScalar
+                SqlDataReader reader;
+                SelectRecords(cmd, out reader);
+
+                string result = "";
+
+                using (reader)
+                {
+                    if (reader.Read())
+                    {
+                        // Get the first column (Index 0) as a string
+                        if (!reader.IsDBNull(0))
+                        {
+                            result = reader.GetString(0);
+                        }
+                    }
+                    reader.Close();
+                }
+
+                return result;
+            }
+        }
     }
 }

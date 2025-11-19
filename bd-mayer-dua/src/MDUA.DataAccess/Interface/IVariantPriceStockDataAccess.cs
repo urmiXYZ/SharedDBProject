@@ -32,6 +32,6 @@ namespace MDUA.DataAccess.Interface
 	public interface IVariantPriceStockDataAccess : ICommonDataAccess<VariantPriceStock, VariantPriceStockList, VariantPriceStockBase>
 	{
         int Insert(VariantPriceStock vps);
-        long UpdatePrice(int variantId, decimal price);
+        long UpdatePrice(int variantId, decimal price, string sku);
     }	
 }

@@ -74,5 +74,6 @@ namespace MDUA.Entities
 
         public List<ProductAttribute> AttributesForView { get; set; } = new List<ProductAttribute>();
         public List<ProductCategory> Categories { get; set; } = new List<ProductCategory>();
+
     }
 }

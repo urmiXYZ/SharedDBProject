@@ -3,6 +3,7 @@ using MDUA.Entities.Bases;
 using MDUA.Facade;
 using MDUA.Facade.Interface;
 using Microsoft.AspNetCore.Mvc;
+using static MDUA.Entities.ProductVariant;
 
 namespace MDUA.Web.UI.Controllers
 {
@@ -224,7 +225,7 @@ namespace MDUA.Web.UI.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("product/update-variant-price")] // Renamed route
-        public IActionResult UpdateVariantPrice(int variantId, decimal newPrice)
+        public IActionResult UpdateVariantPrice(int variantId, decimal newPrice, string newSku)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
             if (userId == null) return Unauthorized();
@@ -233,7 +234,7 @@ namespace MDUA.Web.UI.Controllers
                 return Forbid();
 
             // Call the updated facade method
-            long result = _productFacade.UpdateVariantPrice(variantId, newPrice);
+            long result = _productFacade.UpdateVariantPrice(variantId, newPrice, newSku);
 
             if (result > 0)
                 return Json(new { success = true });
@@ -269,20 +270,10 @@ namespace MDUA.Web.UI.Controllers
             var userId = HttpContext.Session.GetInt32("UserId");
             if (userId == null) return Unauthorized();
 
-            // 1. Get the variants (Your Model)
-            var variants = _productFacade.GetVariantsByProductId(productId);
+            // ✅ Clean and simple: Get the Result object
+            ProductVariantResult model = _productFacade.GetVariantsWithAttributes(productId);
 
-            // 2. Get the attributes specifically for this product
-            ViewBag.ProductAttributes = _productFacade.GetAttributesForProduct(productId);
-
-            // 3. Store ProductId
-            ViewBag.ProductId = productId;
-
-            // ✅ 4. FIX: Fetch the Product to get the Base Price
-            var product = _productFacade.Get(productId); // Uses your simple Get() method
-            ViewBag.BasePrice = product?.BasePrice ?? 0;
-
-            return PartialView("_ProductVariantsPartial", variants);
+            return PartialView("_ProductVariantsPartial", model);
         }
 
         // Action to Save the new variant
@@ -305,5 +296,108 @@ namespace MDUA.Web.UI.Controllers
             return Json(new { success = false, message = "Failed to add variant." });
         }
 
+        [HttpGet]
+        [Route("product/get-missing-attributes")]
+        public IActionResult GetMissingAttributes(int productId, int variantId)
+        {
+            var list = _productFacade.GetMissingAttributesForVariant(productId, variantId);
+            return Json(list);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/add-attribute-to-variant")]
+        public IActionResult AddAttributeToVariant(int variantId, int attributeValueId)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            // Logic to add
+            _productFacade.AddAttributeToVariant(variantId, attributeValueId);
+
+            return Json(new { success = true });
+        }
+
+        [HttpGet]
+        [Route("product/get-discounts")]
+        public IActionResult GetDiscountsPartial(int productId)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            var discounts = _productFacade.GetDiscountsByProductId(productId);
+
+            // Pass ProductId to View for the "Add" form
+            ViewBag.ProductId = productId;
+
+            return PartialView("_ProductDiscountsPartial", discounts);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/add-discount")]
+        public IActionResult AddDiscount(ProductDiscount discount)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            discount.CreatedBy = HttpContext.Session.GetString("UserName");
+            discount.IsActive = true;
+
+            long result = _productFacade.AddDiscount(discount);
+
+            if (result > 0) return Json(new { success = true });
+            return Json(new { success = false, message = "Failed to add discount." });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/update-discount")]
+        public IActionResult UpdateDiscount(ProductDiscount discount)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            discount.UpdatedBy = HttpContext.Session.GetString("UserName");
+
+            long result = _productFacade.UpdateDiscount(discount);
+
+            if (result > 0) return Json(new { success = true });
+            return Json(new { success = false, message = "Failed to update discount." });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/delete-discount")]
+        public IActionResult DeleteDiscount(int id)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            long result = _productFacade.DeleteDiscount(id);
+
+            if (result > 0) return Json(new { success = true });
+            return Json(new { success = false, message = "Failed to delete discount." });
+        }
+
+        [HttpGet]
+        [Route("product/get-updated-price")]
+        public IActionResult GetUpdatedPrice(int productId)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            var p = _productFacade.GetProductWithPrice(productId);
+
+            if (p == null) return NotFound();
+
+            return Json(new
+            {
+                success = true,
+                hasDiscount = p.ActiveDiscount != null,
+                originalPrice = "Tk. " + (p.BasePrice ?? 0).ToString("0.00"),
+                sellingPrice = "Tk. " + p.SellingPrice.ToString("0.00")
+            });
+        }
     }
 }

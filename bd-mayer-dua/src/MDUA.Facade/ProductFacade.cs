@@ -8,6 +8,7 @@ using MDUA.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using static MDUA.Entities.ProductVariant;
 
 namespace MDUA.Facade
 {
@@ -22,6 +23,7 @@ namespace MDUA.Facade
         private readonly IProductCategoryDataAccess _categoryDataAccess;
         private readonly IProductAttributeDataAccess _productAttributeDataAccess;
         private readonly IVariantPriceStockDataAccess _variantPriceStockDataAccess;
+
 
         public ProductFacade(
             IProductDataAccess productDataAccess,
@@ -203,6 +205,24 @@ namespace MDUA.Facade
                     p.CategoryName = categories[p.CategoryId.Value];
                 else
                     p.CategoryName = "N/A";
+
+                decimal basePrice = p.BasePrice ?? 0;
+
+                // ✅ NEW: Get the Single Best Discount
+                var bestDiscount = GetBestDiscount(p.Id, basePrice);
+
+                decimal sellingPrice = basePrice;
+
+                if (bestDiscount != null)
+                {
+                    if (bestDiscount.DiscountType == "Flat")
+                        sellingPrice -= bestDiscount.DiscountValue;
+                    else if (bestDiscount.DiscountType == "Percentage")
+                        sellingPrice -= (basePrice * (bestDiscount.DiscountValue / 100));
+                }
+
+                p.SellingPrice = Math.Max(sellingPrice, 0);
+                p.ActiveDiscount = bestDiscount; // The View will show this specific discount
             }
 
             return products.ToList();
@@ -286,10 +306,10 @@ namespace MDUA.Facade
             product.UpdatedAt = DateTime.Now;
             return _ProductDataAccess.Update(product);
         }
-        public long UpdateVariantPrice(int variantId, decimal newPrice)
+        public long UpdateVariantPrice(int variantId, decimal newPrice, string newSku)
         {
             // Pass only the ID and the new Price
-            return _variantPriceStockDataAccess.UpdatePrice(variantId, newPrice);
+            return _variantPriceStockDataAccess.UpdatePrice(variantId, newPrice,  newSku);
         }
         public long DeleteVariant(int variantId)
         {
@@ -334,6 +354,165 @@ namespace MDUA.Facade
                 }
             }
             return variantId;
+        }
+
+        public ProductVariantResult GetVariantsWithAttributes(int productId)
+        {
+            var result = new ProductVariantResult();
+            result.ProductId = productId;
+            var product = _ProductDataAccess.Get(productId);
+            decimal basePrice = product?.BasePrice ?? 0;
+            result.BasePrice = basePrice;
+
+            var variantList = _ProductVariantDataAccess.GetProductVariantsByProductId(productId);
+            result.Variants = new List<ProductVariant>(variantList);
+
+            var bestDiscount = GetBestDiscount(productId, basePrice);
+
+            // Apply to variants
+            foreach (var v in result.Variants)
+            {
+                decimal vPrice = v.VariantPrice ?? 0;
+                decimal vSellingPrice = vPrice;
+
+                if (bestDiscount != null)
+                {
+                    if (bestDiscount.DiscountType == "Flat")
+                        vSellingPrice -= bestDiscount.DiscountValue;
+                    else if (bestDiscount.DiscountType == "Percentage")
+                        vSellingPrice -= (vPrice * (bestDiscount.DiscountValue / 100));
+                }
+
+                v.DiscountedPrice = vSellingPrice < 0 ? 0 : vSellingPrice;
+            }       // MUST USE GetAll() to fetch attributes for the dropdown list
+            result.AvailableAttributes = _attributeNameDataAccess.GetAll()?.ToList()
+                                                 ?? new List<AttributeName>();
+            result.ReorderLevel = product?.ReorderLevel ?? 0;
+            return result;
+                }
+
+        // 1. Get Missing Attributes
+        public List<AttributeName> GetMissingAttributesForVariant(int productId, int variantId)
+        {
+            return _attributeNameDataAccess.GetMissingAttributesForVariant(productId, variantId);
+        }
+
+        // 2. Add Attribute & Auto-Update Name
+
+        public void AddAttributeToVariant(int variantId, int attributeValueId)
+        {
+            // 1. Insert the link (Attribute -> Variant)
+            _ProductVariantDataAccess.InsertVariantAttributeValue(variantId, attributeValueId, 99);
+
+            // 2. Get the text for the value we just added (e.g., "Cotton")
+            string valueName = _attributeNameDataAccess.GetValueName(attributeValueId);
+
+            // 3. Get the current Variant to see its old name
+            var variant = _ProductVariantDataAccess.Get(variantId);
+
+            if (variant != null && !string.IsNullOrEmpty(valueName))
+            {
+                // 4. Append the new value to the existing name
+                // Old: "Product - Red" -> New: "Product - Red - Cotton"
+                string newVariantName = $"{variant.VariantName} - {valueName}";
+
+                // 5. Save the new name safely
+                _ProductVariantDataAccess.UpdateVariantName(variantId, newVariantName);
+            }
+        }
+
+        // 3. Implement the Methods
+        public List<ProductDiscount> GetDiscountsByProductId(int productId)
+        {
+            // Using the method from your DAL
+            return _ProductDiscountDataAccess.GetByProductId(productId).ToList();
+        }
+
+        public long AddDiscount(ProductDiscount discount)
+        {
+            // Set defaults if needed
+            discount.CreatedAt = DateTime.Now;
+            discount.UpdatedAt = DateTime.Now;
+            return _ProductDiscountDataAccess.Insert(discount);
+        }
+
+        public long UpdateDiscount(ProductDiscount discount)
+        {
+            discount.UpdatedAt = DateTime.Now;
+            return _ProductDiscountDataAccess.Update(discount);
+        }
+
+        public long DeleteDiscount(int id)
+        {
+            return _ProductDiscountDataAccess.Delete(id);
+        }
+
+        public Product GetProductWithPrice(int productId)
+        {
+            var product = _ProductDataAccess.Get(productId);
+            if (product == null) return null;
+
+            decimal basePrice = product.BasePrice ?? 0;
+            var bestDiscount = GetBestDiscount(productId, basePrice);
+
+            decimal sellingPrice = basePrice;
+
+            if (bestDiscount != null)
+            {
+                if (bestDiscount.DiscountType == "Flat")
+                    sellingPrice -= bestDiscount.DiscountValue;
+                else if (bestDiscount.DiscountType == "Percentage")
+                    sellingPrice -= (basePrice * (bestDiscount.DiscountValue / 100));
+            }
+
+            product.SellingPrice = Math.Max(sellingPrice, 0);
+            product.ActiveDiscount = bestDiscount;
+
+            return product;
+        }
+
+        // Helper to find the single best discount from a list of potential discounts
+        private ProductDiscount GetBestDiscount(int productId, decimal basePrice)
+        {
+            // 1. Get ALL discounts for this product
+            var allDiscounts = _ProductDiscountDataAccess.GetByProductId(productId);
+
+            // 2. Filter for currently active (Date range + IsActive flag)
+            var now = DateTime.Now;
+            var validDiscounts = allDiscounts
+                .Where(d => d.IsActive
+                         && d.EffectiveFrom <= now
+                         && (d.EffectiveTo == null || d.EffectiveTo >= now))
+                .ToList();
+
+            if (!validDiscounts.Any()) return null;
+
+            // 3. Calculate which one gives the LOWEST price
+            ProductDiscount bestDiscount = null;
+            decimal lowestPriceFound = basePrice;
+
+            foreach (var d in validDiscounts)
+            {
+                decimal calculatedPrice = basePrice;
+
+                if (d.DiscountType == "Flat")
+                {
+                    calculatedPrice -= d.DiscountValue;
+                }
+                else if (d.DiscountType == "Percentage")
+                {
+                    calculatedPrice -= (basePrice * (d.DiscountValue / 100));
+                }
+
+                // If this discount results in a lower price, it's the new winner
+                if (calculatedPrice < lowestPriceFound)
+                {
+                    lowestPriceFound = calculatedPrice;
+                    bestDiscount = d;
+                }
+            }
+
+            return bestDiscount;
         }
         #endregion
     }

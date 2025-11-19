@@ -125,6 +125,18 @@ namespace MDUA.DataAccess
             reader.Dispose();
         }
 
+        public void UpdateVariantName(int variantId, string newName)
+        {
+            string SQLQuery = "UPDATE ProductVariant SET VariantName = @Name WHERE Id = @Id";
+
+            using (SqlCommand cmd = GetSQLCommand(SQLQuery))
+            {
+                AddParameter(cmd, pInt32("Id", variantId));
+                AddParameter(cmd, pNVarChar("Name", 150, newName));
+
+                UpdateRecord(cmd);
+            }
+        }
 
     }
 }
