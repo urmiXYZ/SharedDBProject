@@ -39,5 +39,13 @@ namespace MDUA.Facade.Interface
         long UpdateDiscount(ProductDiscount discount);
         long DeleteDiscount(int id);
         Product GetProductWithPrice(int productId);
+        List<ProductImage> GetProductImages(int productId);
+        long AddProductImage(int productId, string imageUrl, bool isPrimary, string username);
+        long DeleteProductImage(int imageId);
+
+        // ✅ NEW: Variant Image Methods
+        List<VariantImage> GetVariantImages(int variantId);
+        long AddVariantImage(int variantId, string imageUrl, string username);
+        long DeleteVariantImage(int imageId);
     }
 }

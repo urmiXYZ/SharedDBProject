@@ -23,6 +23,7 @@ namespace MDUA.Facade
         private readonly IProductCategoryDataAccess _categoryDataAccess;
         private readonly IProductAttributeDataAccess _productAttributeDataAccess;
         private readonly IVariantPriceStockDataAccess _variantPriceStockDataAccess;
+        private readonly IVariantImageDataAccess _variantImageDataAccess;
 
 
         public ProductFacade(
@@ -34,7 +35,8 @@ namespace MDUA.Facade
             IProductCategoryDataAccess categoryDataAccess,
             IAttributeNameDataAccess attributeNameDataAccess,
             IProductAttributeDataAccess productAttributeDataAccess,
-            IVariantPriceStockDataAccess variantPriceStockDataAccess)
+            IVariantPriceStockDataAccess variantPriceStockDataAccess,
+            IVariantImageDataAccess variantImageDataAccess)
         {
             _ProductDataAccess = productDataAccess;
             _ProductImageDataAccess = productImageDataAccess;
@@ -45,6 +47,7 @@ namespace MDUA.Facade
             _attributeNameDataAccess = attributeNameDataAccess;
             _productAttributeDataAccess = productAttributeDataAccess;
             _variantPriceStockDataAccess = variantPriceStockDataAccess;
+            _variantImageDataAccess = variantImageDataAccess;
         }
 
         #region Common Implementation
@@ -513,6 +516,57 @@ namespace MDUA.Facade
             }
 
             return bestDiscount;
+        }
+        // In ProductFacade.cs
+
+        public List<ProductImage> GetProductImages(int productId)
+        {
+            // Calls the Data Access layer
+            return _ProductImageDataAccess.GetByProductId(productId).ToList();
+        }
+        public long AddProductImage(int productId, string imageUrl, bool isPrimary, string username)
+        {
+            var img = new ProductImage
+            {
+                ProductId = productId,
+                ImageUrl = imageUrl,
+                IsPrimary = isPrimary,
+                SortOrder = 1,
+                AltText = "Product Image",
+                CreatedBy = username, // ✅ Saving Username
+                CreatedAt = DateTime.Now
+            };
+            return _ProductImageDataAccess.Insert(img);
+        }
+
+        public List<VariantImage> GetVariantImages(int variantId)
+        {
+            // Requires custom partial in DataAccess (see Step 3)
+            return _variantImageDataAccess.GetByVariantId(variantId).ToList();
+        }
+
+        public long AddVariantImage(int variantId, string imageUrl, string username)
+        {
+            var img = new VariantImage
+            {
+                VariantId = variantId,
+                ImageUrl = imageUrl,
+                AltText = "Variant Image",
+                DisplayOrder = 1
+                // Note: Your VariantImage table doesn't have CreatedBy/CreatedAt columns
+            };
+            return _variantImageDataAccess.Insert(img);
+        }
+
+        public long DeleteVariantImage(int imageId)
+        {
+            return _variantImageDataAccess.Delete(imageId);
+        }
+
+        public long DeleteProductImage(int imageId)
+        {
+            // Calls the Data Access delete method
+            return _ProductImageDataAccess.Delete(imageId);
         }
         #endregion
     }

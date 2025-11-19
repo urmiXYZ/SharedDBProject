@@ -7,28 +7,15 @@ namespace MDUA.DataAccess
 {
     public partial class ProductImageDataAccess
     {
-        public ProductImageList GetProductImagesByProductId(int productId)
+        private ProductImageList GetProductImagesByProductId(int productId)
         {
-            string SQL = @"
-                SELECT 
-                    Id,
-                    ProductId,
-                    ImageUrl,
-                    IsPrimary,
-                    SortOrder,
-                    AltText,
-                    CreatedBy,
-                    CreatedAt,
-                    UpdatedBy,
-                    UpdatedAt
-                FROM ProductImage
-                WHERE ProductId = @ProductId
-                ORDER BY SortOrder ASC";
-
-            using SqlCommand cmd = GetSQLCommand(SQL);
-            AddParameter(cmd, pInt32("ProductId", productId));
-
-            return GetList(cmd, ALL_AVAILABLE_RECORDS);
+            // Use the Stored Procedure you provided: GetProductImageByProductId
+            using (SqlCommand cmd = GetSPCommand("GetProductImageByProductId"))
+            {
+                AddParameter(cmd, pInt32("ProductId", productId));
+                // 0 means "All Rows" in your framework's GetList method
+                return GetList(cmd, 10000);
+            }
         }
     }
 }

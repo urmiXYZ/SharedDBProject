@@ -729,4 +729,311 @@
         }
     });
 
+    // ============================================================
+    //  PRODUCT IMAGE LOGIC (Cropper.js)
+    // ============================================================
+
+    let cropper; // Global cropper instance for Product
+    const imageElement = document.getElementById('image-to-crop');
+
+    // 1. Open Image Modal
+    $('.js-manage-images').on('click', function () {
+        let productId = $(this).data('product-id');
+        $('#modal-images-content').data('product-id', productId);
+
+        // Load List
+        $.get(urls.getImages, { productId: productId }, function (html) {
+            $('#modal-images-content').html(html);
+        });
+        $('#productImagesModal').modal('show');
+    });
+
+    // 2. Handle File Selection
+    $(document).on('change', '#upload-image-input', function (e) {
+        let files = e.target.files;
+        if (files && files.length > 0) {
+            let file = files[0];
+            let url = URL.createObjectURL(file);
+
+            // Setup UI - Show cropper area
+            $('#cropper-wrapper, #cropper-controls').show();
+            $('#upload-image-input').closest('.mb-3').hide(); // Hide the entire input container
+
+            let img = document.getElementById('image-to-crop');
+            img.src = url;
+
+            // Destroy old cropper if exists
+            if (cropper) {
+                cropper.destroy();
+            }
+
+            // Initialize Cropper after image loads
+            img.onload = function () {
+                cropper = new Cropper(img, {
+                    aspectRatio: 1, // 1:1 Square
+                    viewMode: 1,
+                    autoCropArea: 1,
+                });
+            };
+        }
+    });
+
+    // 3. Close Cropper and Modal
+    $(document).on('click', '#btn-close-cropper', function () {
+        // Close the entire modal
+        $('#productImagesModal').modal('hide');
+
+        // Clean up cropper
+        if (cropper) {
+            cropper.destroy();
+            cropper = null;
+        }
+
+        // Reset UI
+        $('#cropper-wrapper, #cropper-controls').hide();
+        $('#upload-image-input').val('').closest('.mb-3').show();
+    });
+
+    // 4. Confirm Upload
+    $(document).on('click', '#btn-confirm-upload', function () {
+        if (!cropper) return;
+        let $btn = $(this);
+        $btn.prop('disabled', true).text('Uploading...');
+
+        cropper.getCroppedCanvas({ width: 800, height: 800 }).toBlob((blob) => {
+            let formData = new FormData();
+            let productId = $('#modal-images-content').data('product-id');
+
+            formData.append('file', blob, 'image.jpg');
+            formData.append('productId', productId);
+
+            $.ajax({
+                url: urls.uploadImage,
+                method: 'POST',
+                headers: { 'RequestVerificationToken': token },
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    if (response.success) {
+                        $.get(urls.getImages, { productId: productId }, function (html) {
+                            $('#modal-images-content').html(html);
+
+                            // Clean up cropper
+                            if (cropper) {
+                                cropper.destroy();
+                                cropper = null;
+                            }
+
+                            // Reset UI
+                            $('#cropper-wrapper, #cropper-controls').hide();
+                            $('#upload-image-input').val('').closest('.mb-3').show();
+                        });
+                    } else {
+                        alert("Upload failed: " + response.message);
+                    }
+                },
+                error: function () { alert("Server Error"); },
+                complete: function () {
+                    $btn.prop('disabled', false).html('<i class="fas fa-check"></i> Save Image');
+                }
+            });
+        });
+    });
+
+    // 5. Delete Image (Show Confirmation Modal)
+    $(document).on('click', '.js-delete-image', function () {
+        let id = $(this).data('id');
+        // Store ID on the confirm button
+        $('#btn-confirm-del-prod-img').data('id', id);
+        // Show Modal
+        $('#deleteProductImageModal').modal('show');
+    });
+
+    // 6. Confirm Delete (Executes AJAX)
+    $(document).on('click', '#btn-confirm-del-prod-img', function () {
+        let $btn = $(this);
+        let id = $btn.data('id');
+        let productId = $('#modal-images-content').data('product-id');
+
+        $btn.prop('disabled', true).text('Deleting...');
+
+        $.ajax({
+            url: urls.deleteImage,
+            type: 'POST',
+            headers: { 'RequestVerificationToken': token },
+            data: { id: id },
+            success: function (data) {
+                if (data.success) {
+                    $('#deleteProductImageModal').modal('hide'); // Close confirm modal
+                    // Refresh List
+                    $.get(urls.getImages, { productId: productId }, function (html) {
+                        $('#modal-images-content').html(html);
+                    });
+                } else { alert("Error deleting"); }
+            },
+            error: function () { alert("Server Error"); },
+            complete: function () { $btn.prop('disabled', false).text('Delete'); }
+        });
+    });
+
+    // 7. Product Zoom Handlers
+    $(document).on('click', '.js-prod-zoom-in', function () {
+        if (cropper) cropper.zoom(0.1);
+    });
+    $(document).on('click', '.js-prod-zoom-out', function () {
+        if (cropper) cropper.zoom(-0.1);
+    });
+
+    // Handler: Cancel Cropping (The 'X' button inside the cropper wrapper)
+    $(document).on('click', '#btn-close-cropper', function () {
+        // 1. Destroy Cropper
+        if (cropper) {
+            cropper.destroy();
+            cropper = null;
+        }
+
+        // 2. Hide UI
+        $('#cropper-wrapper').hide();
+        $('#cropper-controls').hide();
+
+        // 3. Reset File Input so same file can be selected again
+        $('#upload-image-input').val('');
+    });
+
+    // ============================================================
+    //  VARIANT IMAGE LOGIC (Cropper.js)
+    // ============================================================
+
+    let varCropper; // Global cropper for Variant
+
+    // 1. Open Variant Image Modal
+    $(document).on('click', '.js-manage-var-images', function () {
+        let $row = $(this).closest('tr');
+        let variantId = $row.data('variant-id');
+
+        $('#modal-var-images-content').data('variant-id', variantId);
+        $('#modal-var-images-content').html('<div class="loading-spinner"></div>');
+
+        $.get(urls.getVariantImages, { variantId: variantId }, function (html) {
+            $('#modal-var-images-content').html(html);
+        });
+
+        $('#variantImagesModal').modal('show');
+    });
+
+    // 2. Handle File Selection (Variant)
+    $(document).on('change', '#upload-variant-image-input', function (e) {
+        let file = e.target.files[0];
+        if (file) {
+            let url = URL.createObjectURL(file);
+            $('#var-cropper-wrapper, #var-cropper-controls').show();
+
+            let img = document.getElementById('var-image-to-crop');
+            img.src = url;
+
+            if (varCropper) varCropper.destroy();
+
+            varCropper = new Cropper(img, {
+                aspectRatio: 1,
+                viewMode: 1,
+                autoCropArea: 1
+            });
+
+            $(this).val('');
+        }
+    });
+
+    // 3. Upload Cropped Variant Image
+    $(document).on('click', '#btn-confirm-var-upload', function () {
+        if (!varCropper) return;
+
+        let $btn = $(this);
+        $btn.prop('disabled', true).text('Uploading...');
+
+        let variantId = $('#modal-var-images-content').data('variant-id');
+
+        varCropper.getCroppedCanvas({ width: 600, height: 600 }).toBlob((blob) => {
+            let formData = new FormData();
+            formData.append('file', blob, 'var-img.jpg');
+            formData.append('variantId', variantId);
+
+            $.ajax({
+                url: urls.uploadVariantImage,
+                type: 'POST',
+                headers: { 'RequestVerificationToken': token },
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (res) {
+                    if (res.success) {
+                        $.get(urls.getVariantImages, { variantId: variantId }, function (html) {
+                            $('#modal-var-images-content').html(html);
+                            if (varCropper) { varCropper.destroy(); varCropper = null; }
+                            $('#var-cropper-wrapper').hide();
+                        });
+                    } else {
+                        alert("Upload failed");
+                    }
+                },
+                error: function () { alert("Server Error"); },
+                complete: function () { $btn.prop('disabled', false).text('Save'); }
+            });
+        });
+    });
+
+    // 4. Delete Variant Image
+    // 4. Delete Variant Image (Opens Modal)
+    $(document).on('click', '.js-del-var-img', function () {
+        let id = $(this).data('id');
+        // Store ID on confirm button
+        $('#btn-confirm-del-var-img').data('id', id);
+        // Show Modal
+        $('#deleteVariantImageModal').modal('show');
+    });
+
+    // 4b. Confirm Delete Variant Image (Executes AJAX)
+    $(document).on('click', '#btn-confirm-del-var-img', function () {
+        let $btn = $(this);
+        let id = $btn.data('id');
+        let variantId = $('#modal-var-images-content').data('variant-id');
+
+        $btn.prop('disabled', true).text('Deleting...');
+
+        $.ajax({
+            url: urls.deleteVariantImage,
+            type: 'POST',
+            headers: { 'RequestVerificationToken': token },
+            data: { id: id },
+            success: function () {
+                $('#deleteVariantImageModal').modal('hide'); // Close confirm modal
+                // Refresh List
+                $.get(urls.getVariantImages, { variantId: variantId }, function (html) {
+                    $('#modal-var-images-content').html(html);
+                });
+            },
+            error: function () { alert("Server Error"); },
+            complete: function () { $btn.prop('disabled', false).text('Delete'); }
+        });
+    });
+
+    // 5. Variant Zoom Handlers
+    $(document).on('click', '.js-var-zoom-in', function () {
+        if (varCropper) varCropper.zoom(0.1);
+    });
+
+    $(document).on('click', '.js-var-zoom-out', function () {
+        if (varCropper) varCropper.zoom(-0.1);
+    });
+
+    // Handler: Cancel Variant Cropping
+    $(document).on('click', '#btn-close-var-cropper', function () {
+        if (varCropper) {
+            varCropper.destroy();
+            varCropper = null;
+        }
+        $('#var-cropper-wrapper').hide();
+        $('#var-cropper-controls').hide();
+        $('#upload-variant-image-input').val('');
+    });
 }); // End of Document Ready

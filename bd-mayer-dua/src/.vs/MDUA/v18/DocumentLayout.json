@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69469D95-06F8-4950-81D3-D3DF2776CF61}|MDUA.Facade\\MDUA.Facade.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.facade\\productfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69469D95-06F8-4950-81D3-D3DF2776CF61}|MDUA.Facade\\MDUA.Facade.csproj|solutionrelative:mdua.facade\\productfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\shared\\_variantimagespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\shared\\_variantimagespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\product\\allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\product\\allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\wwwroot\\js\\products-index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\wwwroot\\js\\products-index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\shared\\_productvariantspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\shared\\_productvariantspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\views\\shared\\_productimagespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\views\\shared\\_productimagespartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|c:\\users\\piistech\\desktop\\shareddbproject-main\\bd-mayer-dua\\src\\mdua.web.ui\\wwwroot\\css\\product-image.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{29822D09-CEF4-4C8F-A7F0-DE5A768E188F}|MDUA.Web.UI\\MDUA.Web.UI.csproj|solutionrelative:mdua.web.ui\\wwwroot\\css\\product-image.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,53 +67,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "products-index.js",
-              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\products-index.js",
-              "RelativeDocumentMoniker": "MDUA.Web.UI\\wwwroot\\js\\products-index.js",
-              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\products-index.js",
-              "RelativeToolTip": "MDUA.Web.UI\\wwwroot\\js\\products-index.js",
-              "ViewState": "AgIAAFICAAAAAAAAAAAqwG0CAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-19T07:52:47.139Z",
+              "Title": "AllProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Product\\AllProducts.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Product\\AllProducts.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Product\\AllProducts.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Product\\AllProducts.cshtml",
+              "ViewState": "AgIAANYBAAAAAAAAAAAAAPYBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T11:38:10.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ProductVariantsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_ProductVariantsPartial.cshtml",
-              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Shared\\_ProductVariantsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_ProductVariantsPartial.cshtml",
-              "RelativeToolTip": "MDUA.Web.UI\\Views\\Shared\\_ProductVariantsPartial.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-19T07:52:30.875Z",
+              "Title": "products-index.js",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\products-index.js",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\wwwroot\\js\\products-index.js",
+              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\products-index.js",
+              "RelativeToolTip": "MDUA.Web.UI\\wwwroot\\js\\products-index.js",
+              "ViewState": "AgIAAP8DAAAAAAAAAADwvwMEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T11:14:19.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductFacade.cs",
-              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\ProductFacade.cs",
-              "RelativeDocumentMoniker": "MDUA.Facade\\ProductFacade.cs",
-              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\ProductFacade.cs",
-              "RelativeToolTip": "MDUA.Facade\\ProductFacade.cs",
-              "ViewState": "AgIAAMwBAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:51:54.599Z",
+              "Title": "_VariantImagesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_VariantImagesPartial.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Shared\\_VariantImagesPartial.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_VariantImagesPartial.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Shared\\_VariantImagesPartial.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv1IAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T11:11:41.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "product-image.css",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\product-image.css",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\wwwroot\\css\\product-image.css",
+              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\product-image.css",
+              "RelativeToolTip": "MDUA.Web.UI\\wwwroot\\css\\product-image.css",
+              "ViewState": "AgIAABABAAAAAAAAAAAgwDMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-19T10:58:06.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MDUA.Web.UI\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MDUA.Web.UI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAHABAAAAAAAAAAAqwJEBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T07:50:18.428Z",
+              "Title": "_ProductImagesPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_ProductImagesPartial.cshtml",
+              "RelativeDocumentMoniker": "MDUA.Web.UI\\Views\\Shared\\_ProductImagesPartial.cshtml",
+              "ToolTip": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\Views\\Shared\\_ProductImagesPartial.cshtml",
+              "RelativeToolTip": "MDUA.Web.UI\\Views\\Shared\\_ProductImagesPartial.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T10:48:27.696Z",
               "EditorCaption": ""
             }
           ]

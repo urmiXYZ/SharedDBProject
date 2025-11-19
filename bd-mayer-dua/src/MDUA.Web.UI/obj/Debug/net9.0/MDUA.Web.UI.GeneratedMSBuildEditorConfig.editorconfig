@@ -58,12 +58,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0RGlzY291bnRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Piistech/Desktop/SharedDBProject-main/bd-mayer-dua/src/MDUA.Web.UI/Views/Shared/_ProductImagesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0SW1hZ2VzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Piistech/Desktop/SharedDBProject-main/bd-mayer-dua/src/MDUA.Web.UI/Views/Shared/_ProductVariantsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0VmFyaWFudHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Piistech/Desktop/SharedDBProject-main/bd-mayer-dua/src/MDUA.Web.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Piistech/Desktop/SharedDBProject-main/bd-mayer-dua/src/MDUA.Web.UI/Views/Shared/_VariantImagesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYXJpYW50SW1hZ2VzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Piistech/Desktop/SharedDBProject-main/bd-mayer-dua/src/MDUA.Web.UI/Views/_ViewImports.cshtml]

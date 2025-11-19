@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\product-image.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MDUA.Facade\MDUA.Facade.csproj" />
   </ItemGroup>
 

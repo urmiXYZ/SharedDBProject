@@ -10,16 +10,15 @@ namespace MDUA.Facade
     {
         public static IServiceCollection AddService(this IServiceCollection services)
         {
-            // Data Access Layer
+            // Data Access Layer - User & Permissions
             services.AddScoped<IUserLoginDataAccess, UserLoginDataAccess>();
             services.AddScoped<IPermissionGroupMapDataAccess, PermissionGroupMapDataAccess>();
-            services.AddScoped<IPermissionDataAccess, PermissionDataAccess>();              // ← ADD THIS
-            services.AddScoped<IPermissionGroupDataAccess, PermissionGroupDataAccess>();    // ← If your facade needs it
-            services.AddScoped<IUserPermissionDataAccess, UserPermissionDataAccess>();
             services.AddScoped<IPermissionDataAccess, PermissionDataAccess>();
-            services.AddScoped<IAttributeNameDataAccess, AttributeNameDataAccess>();
+            services.AddScoped<IPermissionGroupDataAccess, PermissionGroupDataAccess>();
+            services.AddScoped<IUserPermissionDataAccess, UserPermissionDataAccess>();
 
-            // Product-related
+            // Product-related Data Access
+            services.AddScoped<IAttributeNameDataAccess, AttributeNameDataAccess>();
             services.AddScoped<IProductDataAccess, ProductDataAccess>();
             services.AddScoped<IProductImageDataAccess, ProductImageDataAccess>();
             services.AddScoped<IProductReviewDataAccess, ProductReviewDataAccess>();
@@ -27,7 +26,12 @@ namespace MDUA.Facade
             services.AddScoped<IProductDiscountDataAccess, ProductDiscountDataAccess>();
             services.AddScoped<IProductCategoryDataAccess, ProductCategoryDataAccess>();
             services.AddScoped<IProductAttributeDataAccess, ProductAttributeDataAccess>();
-            services.AddTransient<IVariantPriceStockDataAccess, VariantPriceStockDataAccess>();
+
+            // ✅ ADDED THIS (Required for your new Variant Image feature)
+            services.AddScoped<IVariantImageDataAccess, VariantImageDataAccess>();
+
+            // Changed to Scoped for consistency (unless you specifically need Transient)
+            services.AddScoped<IVariantPriceStockDataAccess, VariantPriceStockDataAccess>();
 
             // Facade Layer
             services.AddServiceFacade();
@@ -41,5 +45,4 @@ namespace MDUA.Facade
             services.AddScoped<IProductFacade, ProductFacade>();
         }
     }
-
 }

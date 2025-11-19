@@ -10,8 +10,8 @@ using MDUA.Entities.List;
 
 namespace MDUA.DataAccess
 {
-	public partial class VariantImageDataAccess
-	{
-		
-	}	
+    public partial class VariantImageDataAccess
+    {
+    
+    }
 }

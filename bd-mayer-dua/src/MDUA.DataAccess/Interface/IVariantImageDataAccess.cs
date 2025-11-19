@@ -30,6 +30,7 @@ namespace MDUA.DataAccess.Interface
 
 
 	public interface IVariantImageDataAccess : ICommonDataAccess<VariantImage, VariantImageList, VariantImageBase>
-	{ 
-	}	
+	{
+        VariantImageList GetByVariantId(int variantId);
+    }	
 }

@@ -62,6 +62,7 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwr
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\variants.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\product.js
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
@@ -78,6 +79,7 @@ wwwroot\css\product-details.css
 wwwroot\css\product-form.css
 wwwroot\css\products.css
 wwwroot\css\site.css
+wwwroot\css\variants.css
 wwwroot\favicon.ico
 wwwroot\images\all.webp
 wwwroot\images\combo.jpg
@@ -85,6 +87,17 @@ wwwroot\images\logo.jpg
 wwwroot\images\pic1.webp
 wwwroot\images\pic2.webp
 wwwroot\images\pic3.webp
+wwwroot\images\products\27\0efe1244-05e1-496e-adbd-ae2946fa292b.jpg
+wwwroot\images\products\2\0ef64897-f21e-454a-bba7-a4485679c296.jpg
+wwwroot\images\products\2\bae19af8-0bcb-406e-8e54-128f4c605b50.jpg
+wwwroot\images\products\2\c838fe05-3b67-4601-9d22-7dcccdb223e7.jpg
+wwwroot\images\products\2\f7ab02ab-6094-4547-931f-1919adb4b7ad.jpg
+wwwroot\images\products\30eeb535-21d7-4760-9f4f-362b80a058a2.jpg
+wwwroot\images\products\51fa407a-e81e-45a2-8a9f-41117c2f932b.jpg
+wwwroot\images\variants\3\49021030-82e7-4dd7-b00e-0eeb01a14fbe.jpg
+wwwroot\images\variants\4\4e96ca26-b983-4355-867a-823109b08a92.jpg
+wwwroot\images\variants\5\ee462653-575b-44a1-b9f7-679bd7c70eac.jpg
+wwwroot\images\variants\6\c5b10ab8-52d3-4b7b-9787-fd50b0765bfb.jpg
 wwwroot\js\combo.js
 wwwroot\js\product.js
 wwwroot\js\products-index.js

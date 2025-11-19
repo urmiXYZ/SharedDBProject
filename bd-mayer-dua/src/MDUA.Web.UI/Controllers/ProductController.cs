@@ -1,25 +1,24 @@
-﻿using MDUA.Entities; // Using the enhanced Product entity
+﻿using MDUA.Entities; 
 using MDUA.Entities.Bases;
 using MDUA.Facade;
 using MDUA.Facade.Interface;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using static MDUA.Entities.ProductVariant;
 
 namespace MDUA.Web.UI.Controllers
 {
-    // The controller is now a thin layer, strictly calling the Facade.
     public class ProductController : Controller
     {
         private readonly IProductFacade _productFacade;
         private readonly IUserLoginFacade _userLoginFacade;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-
-        // Dependency Injection
-        public ProductController(IProductFacade productFacade, IUserLoginFacade userLoginFacade)
+        public ProductController(IProductFacade productFacade, IUserLoginFacade userLoginFacade, IWebHostEnvironment webHostEnvironment)
         {
             _productFacade = productFacade;
             _userLoginFacade = userLoginFacade;
-
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [Route("product/{slug}")]
@@ -399,5 +398,116 @@ namespace MDUA.Web.UI.Controllers
                 sellingPrice = "Tk. " + p.SellingPrice.ToString("0.00")
             });
         }
+
+        [HttpGet]
+        [Route("product/get-images")]
+        public IActionResult GetImagesPartial(int productId)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            var images = _productFacade.GetProductImages(productId);
+            ViewBag.ProductId = productId;
+            return PartialView("_ProductImagesPartial", images);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/upload-image")]
+        public async Task<IActionResult> UploadImage(int productId, IFormFile file)
+        {
+            // ... (User checks) ...
+
+            if (file == null || file.Length == 0)
+                return Json(new { success = false, message = "No file received" });
+
+            // 1. Save to Disk
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+
+            // ✅ FIX: Include productId in the folder path
+            // Was: "wwwroot/images/products"
+            // Now: "wwwroot/images/products/{productId}"
+            var uploads = Path.Combine(_webHostEnvironment.WebRootPath, "images", "products", productId.ToString());
+
+            if (!Directory.Exists(uploads)) Directory.CreateDirectory(uploads);
+
+            var filePath = Path.Combine(uploads, fileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            // 2. Save to Database (This matches the path above now)
+            var username = HttpContext.Session.GetString("UserName");
+            string dbPath = $"/images/products/{productId}/{fileName}";
+
+            _productFacade.AddProductImage(productId, dbPath, false, username);
+
+            return Json(new { success = true });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/delete-image")]
+        public IActionResult DeleteImage(int id)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            // Optional: Get image path first and delete physical file here
+
+            long result = _productFacade.DeleteProductImage(id);
+
+            if (result > 0) return Json(new { success = true });
+            return Json(new { success = false });
+        }
+
+        [HttpGet]
+        [Route("product/get-variant-images")]
+        public IActionResult GetVariantImagesPartial(int variantId)
+        {
+            var images = _productFacade.GetVariantImages(variantId);
+            ViewBag.VariantId = variantId;
+            return PartialView("_VariantImagesPartial", images);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/upload-variant-image")]
+        public async Task<IActionResult> UploadVariantImage(int variantId, IFormFile file)
+        {
+            // ... (User checks) ...
+
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+
+            // ✅ FIX: Include variantId in the folder path
+            var folderPath = Path.Combine(_webHostEnvironment.WebRootPath, "images", "variants", variantId.ToString());
+
+            if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
+
+            var filePath = Path.Combine(folderPath, fileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            string dbPath = $"/images/variants/{variantId}/{fileName}";
+            var username = HttpContext.Session.GetString("UserName");
+
+            _productFacade.AddVariantImage(variantId, dbPath, username);
+
+            return Json(new { success = true });
+        }
+
+        // 4. NEW: Delete Variant Image
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/delete-variant-image")]
+        public IActionResult DeleteVariantImage(int id)
+        {
+            _productFacade.DeleteVariantImage(id);
+            return Json(new { success = true });
+        }
+
     }
 }
