@@ -1,0 +1,186 @@
+﻿:root {
+    --red-main: #dc3545;
+    --red-dark: #b41f31;
+    --yellow-main: #ffc107;
+    --bg-body: #faf5f5;
+    --glass-bg: rgba(255, 255, 255, 0.82);
+    --glass-border: rgba(255, 255, 255, 0.9);
+    --text-main: #212529;
+    --text-muted: #6c757d;
+    --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.14);
+    --radius-xl: 20px;
+    --transition: 0.2s ease-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(circle at top left, #ffe8e8 0, #fff7e0 50%, #f8f9fa 100%);
+    min-height: 100vh;
+    color: var(--text-main);
+}
+
+.app-shell {
+    min-height: 100vh;
+}
+
+/* GLASS ELEMENTS */
+.glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--shadow-soft);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+    .glass-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+    }
+
+/* SIDEBAR SPECIFIC */
+.sidebar {
+    padding: 1rem;
+    position: sticky;
+    top: 0.75rem;
+    height: calc(100vh - 1.5rem);
+    overflow-y: auto;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 0, #fff5d0 0, var(--yellow-main) 45%, var(--red-main) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #721c24;
+    box-shadow: 0 10px 25px rgba(220, 53, 69, 0.45);
+}
+
+.nav-pills .nav-link {
+    border-radius: 999px;
+    padding: .45rem .9rem;
+    font-size: .9rem;
+    color: var(--text-muted);
+    transition: all var(--transition);
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+    /* Find this section in admin-theme.css and replace it */
+
+    .nav-pills .nav-link.active {
+        /* Lighter glass background instead of solid dark red */
+        background: rgba(220, 53, 69, 0.12) !important;
+        color: var(--red-main) !important;
+        /* Subtle border and lighter shadow */
+        border: 1px solid rgba(220, 53, 69, 0.2);
+        box-shadow: 0 4px 12px rgba(220, 53, 69, 0.1);
+        font-weight: 600;
+    }
+
+        /* Optional: Add a subtle hover effect to the active item */
+        .nav-pills .nav-link.active:hover {
+            background: rgba(220, 53, 69, 0.18) !important;
+        }
+
+/* TABLE STYLES */
+.table-wrapper {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.06);
+}
+
+.table thead {
+    background: #fff5f5;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.table th, .table td {
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* MODAL OVERRIDES (Preserving your glass effect) */
+.modal-custom {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header-custom {
+    background: linear-gradient(135deg, var(--red-main), var(--red-dark));
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+}
+
+.modal-backdrop {
+    backdrop-filter: blur(5px);
+}
+
+/* UTILITIES */
+.pill-tag {
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    padding: .1rem .6rem;
+    border-radius: 999px;
+    background: #fff;
+    border: 1px solid rgba(220, 53, 69, .25);
+    color: var(--red-dark);
+}
+
+
+/* Add to admin-theme.css */
+
+/* Ensure Glass Panel doesn't create a new stacking context that traps modals */
+.glass-panel {
+    transform: none !important;
+    /* Note: We moved modals out of here, but this is a safety measure */
+}
+
+/* Boost Modal Z-Index to sit on top of everything */
+.modal {
+    z-index: 1055 !important;
+}
+
+.modal-backdrop {
+    z-index: 1050 !important;
+    /* Make sure backdrop isn't too dark when stacked */
+    opacity: 0.5 !important;
+}
+
+    /* Fix nested modal backdrops */
+    .modal-backdrop + .modal-backdrop {
+        z-index: 1060 !important;
+    }

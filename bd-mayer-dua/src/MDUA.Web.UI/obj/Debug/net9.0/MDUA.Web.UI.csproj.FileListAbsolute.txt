@@ -59,9 +59,7 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\bundle\MDUA.Web.UI.styles.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\scopedcss\projectbundle\MDUA.Web.UI.bundle.scp.css
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\26b86ijy7f-{0}-yyijiweftt-yyijiweftt.gz
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1frpp9xutd-{0}-ph6tdfs4aw-ph6tdfs4aw.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\dr4q7dbtfb-{0}-1ly33j8f7m-1ly33j8f7m.gz
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jqy0z3kazy-{0}-jgp85ygb2s-jgp85ygb2s.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\h4zfy7omfd-{0}-jwhp4ah7oq-jwhp4ah7oq.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\3i39tq7my0-{0}-eq4rkjez15-eq4rkjez15.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\tr38p9xsc8-{0}-dskq7mvo82-dskq7mvo82.gz
@@ -70,7 +68,6 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\7r1pq86ewv-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\83ey3ede38-{0}-0nskzg97ek-0nskzg97ek.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\xt8hxikogt-{0}-iwvf1okgfa-iwvf1okgfa.gz
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ushi514hcl-{0}-m83sjqzvmn-m83sjqzvmn.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\o7t4h345k9-{0}-fr7q2aak1r-fr7q2aak1r.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\vh1obefrer-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\lcc979iopo-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -145,3 +142,8 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.pdb
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\MDUA.Web.UI.genruntimeconfig.cache
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\ref\MDUA.Web.UI.dll
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\y8rr9rcahu-{0}-l3pwyauws5-l3pwyauws5.gz
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ushi514hcl-{0}-h70315xcyr-h70315xcyr.gz
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\1frpp9xutd-{0}-ph6tdfs4aw-ph6tdfs4aw.gz
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\ucgyqmof3b-{0}-s7ag65k8oa-s7ag65k8oa.gz
+C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\obj\Debug\net9.0\compressed\jqy0z3kazy-{0}-dzaeazuv3y-dzaeazuv3y.gz

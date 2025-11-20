@@ -1,238 +1,156 @@
 ﻿@model MDUA.Entities.UserLoginResult
 @{
+    Layout = "_AdminLayout";
     ViewData["Title"] = "Dashboard";
     var canAddProduct = Model.AuthorizedActions?
-                            .Any(a => a.Trim().Equals("Product.Add", StringComparison.OrdinalIgnoreCase))
-                            ?? false;
+            .Any(a => a.Trim().Equals("Product.Add", StringComparison.OrdinalIgnoreCase)) ?? false;
 }
 
-<link rel="stylesheet" href="~/css/dashboard.css" />
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-0">Overview</h2>
+        <div class="text-muted small">Welcome back, @Model.UserLogin.UserName</div>
+    </div>
+</div>
 
-<div class="dashboard-wrapper">
-    <div class="dashboard-container">
-        <!-- Header Section -->
-        <div class="dashboard-header">
-            <div class="header-content">
-                <div class="header-text">
-                    <h1>Dashboard</h1>
-                    <p>Welcome back, <strong>@Model.UserLogin.UserName</strong></p>
-                </div>
-                <div class="header-logout">
-                    <form method="post" asp-action="Logout">
-                        <button type="submit" class="btn-logout">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                                <polyline points="16 17 21 12 16 7"></polyline>
-                                <line x1="21" y1="12" x2="9" y2="12"></line>
-                            </svg>
-                            Logout
-                        </button>
-                    </form>
-                </div>
-            </div>
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="glass-card p-3">
+            <div class="text-muted small text-uppercase fw-bold">User ID</div>
+            <div class="fs-4 fw-bold">@Model.UserLogin.Id</div>
+            <div class="small text-muted">System Identifier</div>
         </div>
-
-        <!-- User Info Card -->
-        <div class="info-card">
-            <div class="card-header-custom">
-                <div class="header-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                </div>
-                <h2>Profile Information</h2>
-            </div>
-            <div class="card-body-custom">
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">ID</span>
-                        <span class="info-value">@Model.UserLogin.Id</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Username</span>
-                        <span class="info-value">@Model.UserLogin.UserName</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Email</span>
-                        <span class="info-value">@Model.UserLogin.Email</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">Role</span>
-                        <span class="info-value role-badge">@Model.RoleName</span>
-                    </div>
-                </div>
-
-
-            </div>
+    </div>
+    <div class="col-md-4">
+        <div class="glass-card p-3">
+            <div class="text-muted small text-uppercase fw-bold">Role</div>
+            <div class="fs-4 fw-bold text-danger">@Model.RoleName</div>
+            <div class="small text-muted">Access Level</div>
         </div>
-
-        @if (Model.CanViewProducts)
-        {
-            <div class="info-card">
-                <div class="card-header-custom">
-                    <div class="header-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                        </svg>
-                    </div>
-                    <h2>Recent Products</h2>
-                </div>
-
-                <div class="card-body-custom">
-                    <ul class="product-list">
-                        @foreach (var p in Model.LastFiveProducts)
-                        {
-                            <li class="product-item">
-                                <span>@p.ProductName</span>
-                                <span>-</span>
-                                <span class="date">@p.CreatedAt?.ToString("dd MMM yyyy")</span>
-                            </li>
-                        }
-                    </ul>
-
-                    <div class="action-section d-flex gap-2">
-                        @if (Model.CanViewProducts)
-                        {
-                            <a href="@Url.Action("AllProducts", "Product")" class="btn-view-products btn btn-outline-primary d-flex align-items-center gap-2">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M3 12h18M3 6h18M3 18h18"></path>
-                                </svg>
-                                <span>View All</span>
-                            </a>
-                        }
-
-                        @if (canAddProduct)
-                        {
-                            <button type="button" class="btn-add-product btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <line x1="12" y1="5" x2="12" y2="19"></line>
-                                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                                </svg>
-                                Add Product
-                            </button>
-                        }
-                    </div>
-                </div>
-            </div>
-        }
-
-
-
-
-        <!-- Authorized Actions Card -->
-        <div class="actions-card">
-            <div class="card-header-custom">
-                <div class="header-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
-                </div>
-                <h2>Authorized Actions</h2>
-            </div>
-            <div class="card-body-custom">
-                <div class="actions-list">
-                    @foreach (var act in Model.AuthorizedActions ?? new List<string>())
-                    {
-                        <div class="action-item">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            <span>@act</span>
-                        </div>
-                    }
-                </div>
-            </div>
+    </div>
+    <div class="col-md-4">
+        <div class="glass-card p-3">
+            <div class="text-muted small text-uppercase fw-bold">Email</div>
+            <div class="fs-5 fw-semibold text-truncate">@Model.UserLogin.Email</div>
+            <div class="small text-muted">Verified Contact</div>
         </div>
     </div>
 </div>
 
-<!-- Add Product Modal -->
-<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal-custom">
-            <form method="post" asp-controller="Product" asp-action="Add">
-                <div class="modal-header modal-header-custom">
-                    <h5 class="modal-title" id="addProductModalLabel">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                        </svg>
-                        Add New Product
-                    </h5>
-                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                            <line x1="6" y1="6" x2="18" y2="18"></line>
-                        </svg>
+@if (Model.CanViewProducts)
+{
+    <div class="glass-card p-4 mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="fw-bold mb-0">Recent Products</h5>
+
+            <div class="d-flex align-items-center gap-3">
+                @if (canAddProduct)
+                {
+                    <button type="button" class="btn btn-sm btn-danger rounded-pill shadow-sm px-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
+                        <span class="me-1">＋</span> Add Product
                     </button>
-                </div>
-                <div class="modal-body modal-body-custom">
-                    <div class="form-group-modal">
-                        <label for="ProductName" class="form-label-modal">Product Name</label>
-                        <input type="text" name="ProductName" class="form-control-modal" placeholder="Enter product name" required />
-                    </div>
-                    <div class="form-group-modal">
-                        <label for="BasePrice" class="form-label-modal">Base Price</label>
-                        <input type="number" step="0.01" name="BasePrice" class="form-control-modal" placeholder="0.00" required />
-                    </div>
-                    <div class="form-group-modal">
-                        <label for="Description" class="form-label-modal">Description</label>
-                        <textarea name="Description" class="form-control-modal" rows="3" placeholder="Enter product description"></textarea>
-                    </div>
-                    <div class="form-group-modal">
-                        <label for="ReorderLevel" class="form-label-modal">Reorder Level</label>
-                        <input type="number" name="ReorderLevel" class="form-control-modal" value="0" required />
-                    </div>
-                    <div class="form-group-modal">
-    <label for="Slug" class="form-label-modal">Slug</label>
-    <input type="text" name="Slug" class="form-control-modal" placeholder="Enter slug (unique)" required />
-</div>
+                }
+                <a href="@Url.Action("AllProducts", "Product")" class="text-danger text-decoration-none small fw-bold">View All &rarr;</a>
+            </div>
+        </div>
 
-                    <div class="form-group-modal">
-                        <label for="CategoryId" class="form-label-modal">Category</label>
-                        <select name="CategoryId" class="form-control-modal" required>
-                            <option value="">-- Select Category --</option>
-                            @foreach (var c in Model.Categories)
-                            {
-                                <option value="@c.Id">@c.Name</option>
-                            }
-                        </select>
-                    </div>
+        <div class="table-wrapper">
+            <table class="table table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Created At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in Model.LastFiveProducts)
+                    {
+                        <tr>
+                            <td class="fw-semibold">@p.ProductName</td>
+                            <td>@p.CreatedAt?.ToString("dd MMM yyyy")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
 
-                    <div id="attributes-container">
-                        <div class="attribute-row mb-2" data-attr-index="0">
-                            <label class="form-label-modal">Attribute</label>
-                            <select name="Attributes[0].AttributeId" class="attribute-select form-control-modal">
-                                <option value="">-- Select Attribute --</option>
-                                @foreach (var a in Model.Attributes)
+@section Modals {
+    <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-custom">
+                <form method="post" asp-controller="Product" asp-action="Add">
+                    <div class="modal-header modal-header-custom">
+                        <h5 class="modal-title" id="addProductModalLabel">Add New Product</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Product Name</label>
+                            <input type="text" name="ProductName" class="form-control" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Base Price</label>
+                            <input type="number" step="0.01" name="BasePrice" class="form-control" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Description</label>
+                            <textarea name="Description" class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="row g-3 mb-3">
+                            <div class="col-6">
+                                <label class="form-label fw-bold">Reorder Level</label>
+                                <input type="number" name="ReorderLevel" class="form-control" value="0" required />
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label fw-bold">Slug</label>
+                                <input type="text" name="Slug" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Category</label>
+                            <select name="CategoryId" class="form-select" required>
+                                <option value="">-- Select Category --</option>
+                                @foreach (var c in Model.Categories)
                                 {
-                                    <option value="@a.Id">@a.Name</option>
+                                    <option value="@c.Id">@c.Name</option>
                                 }
                             </select>
-                            <div class="attribute-values-container mt-2"></div>
+                        </div>
+                        <div id="attributes-container" class="p-3 bg-light rounded border mb-3">
+                            <div class="attribute-row mb-2" data-attr-index="0">
+                                <label class="small text-muted fw-bold">Attribute</label>
+                                <select name="Attributes[0].AttributeId" class="attribute-select form-select mb-2">
+                                    <option value="">-- Select Attribute --</option>
+                                    @foreach (var a in Model.Attributes)
+                                    {
+                                        <option value="@a.Id">@a.Name</option>
+                                    }
+                                </select>
+                                <div class="attribute-values-container"></div>
+                            </div>
+                            <button type="button" id="add-attribute" class="btn btn-sm btn-outline-secondary w-100 dashed-border">+ Add Attribute</button>
+                        </div>
+
+                        <div id="variants-container" class="mt-3"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" name="IsActive" value="true" class="form-check-input" id="IsActive" checked />
+                            <input type="hidden" name="IsActive" value="false" />
+                            <label class="form-check-label" for="IsActive">Product is Active</label>
                         </div>
                     </div>
-                    <button type="button" id="add-attribute" class="btn btn-sm btn-outline-primary mt-2">
-                        Add Another Attribute
-                    </button>
-
-                    <div id="variants-container" class="mt-3"></div>
-                    <div class="form-check-modal">
-                        <input type="checkbox" name="IsActive" value="true" class="form-check-input-modal" id="IsActive" checked />
-                        <input type="hidden" name="IsActive" value="false" />
-                        <label class="form-check-label-modal" for="IsActive">Product is Active</label>
+                    <div class="modal-footer border-top-0">
+                        <button type="button" class="btn btn-light text-muted" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-danger">Add Product</button>
                     </div>
-                </div>
-                <div class="modal-footer modal-footer-custom">
-                    <button type="button" class="btn-modal-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn-modal-primary">Add Product</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="~/js/product.js"></script>
+}
 
+@section Scripts {
+    <script src="~/js/product.js"></script>
+}
