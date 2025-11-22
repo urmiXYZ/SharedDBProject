@@ -277,27 +277,38 @@
     });
 
     // 2. Toggle Status
-    $('.js-toggle-status').on('click', function () {
-        let $button = $(this);
-        let productId = $button.data('product-id');
-        $button.prop('disabled', true);
+   $('.js-toggle-status').on('click', function () {
+    let $button = $(this);
+    let productId = $button.data('product-id');
+    $button.prop('disabled', true);
 
-        $.ajax({
-            url: urls.toggleStatus,
-            type: 'POST',
-            headers: { 'RequestVerificationToken': token },
-            data: { productId: productId },
-            success: function (data) {
-                if (data.success) {
-                    $button.text(data.newIsActive ? "Active" : "Inactive");
-                    $button.removeClass("status-active status-inactive");
-                    $button.addClass(data.newIsActive ? "status-active" : "status-inactive");
-                } else { alert(data.message); }
-            },
-            error: function () { alert('Error.'); },
-            complete: function () { $button.prop('disabled', false); }
-        });
+    $.ajax({
+        url: urls.toggleStatus, // Ensure 'urls' is defined in your scope
+        type: 'POST',
+        headers: { 'RequestVerificationToken': token }, // Ensure 'token' is defined
+        data: { productId: productId },
+        success: function (data) {
+            if (data.success) {
+                // 1. Update Text
+                $button.text(data.newIsActive ? "Active" : "Inactive");
+
+                // 2. Remove BOTH sets of possible color classes
+                $button.removeClass("bg-success-subtle text-success bg-danger-subtle text-danger");
+
+                // 3. Add the correct set based on the new state
+                $button.addClass(data.newIsActive ? "bg-success-subtle text-success" : "bg-danger-subtle text-danger");
+            } else {
+                alert(data.message);
+            }
+        },
+        error: function () {
+            alert('Error toggling status.');
+        },
+        complete: function () {
+            $button.prop('disabled', false);
+        }
     });
+});
 
     // 3. View Details
     $('.js-view-details').on('click', function () {
@@ -1035,5 +1046,73 @@
         $('#var-cropper-wrapper').hide();
         $('#var-cropper-controls').hide();
         $('#upload-variant-image-input').val('');
+    });
+
+    // 6. Set Primary Image
+    $(document).on('change', '.js-set-primary', function () {
+        let imageId = $(this).data('id');
+        let productId = $(this).data('product-id');
+
+        $.ajax({
+            url: '/product/set-primary-image', // Or use urls.setPrimaryImage if added to config
+            type: 'POST',
+            headers: { 'RequestVerificationToken': token },
+            data: { imageId: imageId, productId: productId },
+            success: function (res) {
+                if (res.success) {
+                    // Reload list to update UI borders and badges
+                    $.get(urls.getImages, { productId: productId }, function (html) {
+                        $('#modal-images-content').html(html);
+                    });
+                }
+            }
+        });
+    });
+
+    // 7. Update Sort Order (on change/blur)
+    $(document).on('change', '.js-update-order', function () {
+        let imageId = $(this).data('id');
+        let newOrder = $(this).val();
+        let productId = $('#modal-images-content').data('product-id');
+
+        $.ajax({
+            url: '/product/update-image-order', // Or use urls.updateImageOrder
+            type: 'POST',
+            headers: { 'RequestVerificationToken': token },
+            data: { imageId: imageId, sortOrder: newOrder },
+            success: function (res) {
+                // Optional: Reload list to sort items immediately
+                // or just let it be until next open
+                if (res.success) {
+                    $.get(urls.getImages, { productId: productId }, function (html) {
+                        $('#modal-images-content').html(html);
+                    });
+                }
+            }
+        });
+    });
+
+    // ... inside VARIANT IMAGE LOGIC ...
+
+    // 5. Update Variant Image Sort Order
+    $(document).on('change', '.js-update-var-order', function () {
+        let imageId = $(this).data('id');
+        let newOrder = $(this).val();
+        let variantId = $(this).data('variant-id'); // Use data attribute or global var
+
+        $.ajax({
+            url: '/product/update-variant-image-order', // Or use config: urls.updateVariantImageOrder
+            type: 'POST',
+            headers: { 'RequestVerificationToken': token },
+            data: { imageId: imageId, displayOrder: newOrder },
+            success: function (res) {
+                if (res.success) {
+                    // Optional: Reload list to see them re-sorted immediately
+                    $.get(urls.getVariantImages, { variantId: variantId }, function (html) {
+                        $('#modal-var-images-content').html(html);
+                    });
+                }
+            }
+        });
     });
 }); // End of Document Ready

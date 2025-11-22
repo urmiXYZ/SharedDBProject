@@ -305,3 +305,21 @@
         transform: rotate(360deg);
     }
 }
+/* ========================================== */
+/* FIX FOR STACKED MODALS (Level 2 Modals)    */
+/* ========================================== */
+
+/* These modals must appear ON TOP of the "View Variants" modal */
+#deleteProductImageModal,
+#deleteVariantImageModal,
+#deleteProductModal,
+#deleteVariantModal,
+#variantImagesModal, /* <--- ADD THIS ONE! */
+#productImagesModal /* <--- Add this one too just in case */ {
+    z-index: 10000 !important; /* Higher than Bootstrap's default 1050 */
+}
+
+/* Fix the second dark background so it doesn't cover the second modal */
+.modal-backdrop + .modal-backdrop {
+    z-index: 9999 !important;
+}

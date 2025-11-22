@@ -526,14 +526,21 @@ namespace MDUA.Facade
         }
         public long AddProductImage(int productId, string imageUrl, bool isPrimary, string username)
         {
+            // 1. Check if any images already exist for this product
+            var existingImages = _ProductImageDataAccess.GetByProductId(productId);
+            bool isFirstImage = (existingImages.Count == 0);
+
             var img = new ProductImage
             {
                 ProductId = productId,
                 ImageUrl = imageUrl,
-                IsPrimary = isPrimary,
-                SortOrder = 1,
+
+                // ✅ LOGIC: If User said Primary OR it's the First Image -> True
+                IsPrimary = isPrimary || isFirstImage,
+
+                SortOrder = existingImages.Count + 1, // Auto-increment sort order
                 AltText = "Product Image",
-                CreatedBy = username, // ✅ Saving Username
+                CreatedBy = username,
                 CreatedAt = DateTime.Now
             };
             return _ProductImageDataAccess.Insert(img);
@@ -567,6 +574,70 @@ namespace MDUA.Facade
         {
             // Calls the Data Access delete method
             return _ProductImageDataAccess.Delete(imageId);
+        }
+
+        public ProductImage GetProductImage(int id)
+        {
+            // Uses the existing .Get(id) method in your DataAccess
+            return _ProductImageDataAccess.Get(id);
+        }
+
+        public VariantImage GetVariantImage(int id)
+        {
+            // Uses the existing .Get(id) method in your DataAccess
+            return _variantImageDataAccess.Get(id);
+        }
+
+        public void SetProductImageAsPrimary(int imageId, int productId)
+        {
+            // 1. Get all images for this product
+            var allImages = _ProductImageDataAccess.GetByProductId(productId);
+
+            foreach (var img in allImages)
+            {
+                if (img.Id == imageId)
+                {
+                    // Set this one as Primary
+                    if (!img.IsPrimary)
+                    {
+                        img.IsPrimary = true;
+                        _ProductImageDataAccess.Update(img);
+                    }
+                }
+                else
+                {
+                    // Unset others
+                    if (img.IsPrimary)
+                    {
+                        img.IsPrimary = false;
+                        _ProductImageDataAccess.Update(img);
+                    }
+                }
+            }
+        }
+
+        public void UpdateProductImageSortOrder(int imageId, int sortOrder)
+        {
+            var img = _ProductImageDataAccess.Get(imageId);
+            if (img != null)
+            {
+                img.SortOrder = sortOrder;
+                _ProductImageDataAccess.Update(img);
+            }
+        }
+        public void UpdateVariantImageDisplayOrder(int imageId, int displayOrder)
+        {
+            // 1. Get existing image
+            var img = _variantImageDataAccess.Get(imageId);
+
+            if (img != null)
+            {
+                // 2. Update property
+                img.DisplayOrder = displayOrder;
+
+                // 3. Save to DB using existing Update method
+                _variantImageDataAccess.Update(img);
+            }
         }
         #endregion
     }

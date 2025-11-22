@@ -226,4 +226,32 @@
             e.preventDefault();
         }
     });
+
+
+    const $nameInput = $('input[name="ProductName"]');
+    const $slugInput = $('input[name="Slug"]');
+
+    // Track if user has manually edited the slug
+    let isSlugManuallyEdited = false;
+
+    $slugInput.on('input', function () {
+        if ($(this).val().trim() !== '') {
+            isSlugManuallyEdited = true;
+        }
+    });
+
+    $nameInput.on('input', function () {
+        // Only auto-generate if the user hasn't manually typed a custom slug
+        if (!isSlugManuallyEdited) {
+            const name = $(this).val();
+
+            const slug = name.toLowerCase()
+                .replace(/[^a-z0-9\s-]/g, '')  // Remove special chars
+                .trim()                        // Remove start/end spaces
+                .replace(/\s+/g, '-')          // Replace spaces with -
+                .replace(/-+/g, '-');          // Remove duplicate -
+
+            $slugInput.val(slug);
+        }
+    });
 });

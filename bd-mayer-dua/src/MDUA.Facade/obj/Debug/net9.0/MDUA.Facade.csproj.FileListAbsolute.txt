@@ -16,3 +16,21 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Facade\obj\
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\refint\MDUA.Facade.dll
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.pdb
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\ref\MDUA.Facade.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Facade.deps.json
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Facade.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Facade.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.DataAccess.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Entities.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Framework.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.DataAccess.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Entities.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\bin\Debug\net9.0\MDUA.Framework.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.csproj.AssemblyReference.cache
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.GeneratedMSBuildEditorConfig.editorconfig
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.csproj.CoreCompileInputs.cache
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.sourcelink.json
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Fac.AC19CD99.Up2Date
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\refint\MDUA.Facade.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\MDUA.Facade.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Facade\obj\Debug\net9.0\ref\MDUA.Facade.dll

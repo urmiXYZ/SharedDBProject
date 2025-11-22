@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\admin-theme.css",
+      "PackagePath": "staticwebassets\\css\\admin-theme.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\combo.css",
+      "PackagePath": "staticwebassets\\css\\combo.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\product-details.css",
+      "PackagePath": "staticwebassets\\css\\product-details.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\product-image.css",
+      "PackagePath": "staticwebassets\\css\\product-image.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\products.css",
+      "PackagePath": "staticwebassets\\css\\products.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\all.webp",
+      "PackagePath": "staticwebassets\\images\\all.webp"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\combo.jpg",
+      "PackagePath": "staticwebassets\\images\\combo.jpg"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\pic1.webp",
+      "PackagePath": "staticwebassets\\images\\pic1.webp"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\pic2.webp",
+      "PackagePath": "staticwebassets\\images\\pic2.webp"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\pic3.webp",
+      "PackagePath": "staticwebassets\\images\\pic3.webp"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\variants\\18\\1db71407-dca8-4c75-8c1a-61d2ed32e7fa.jpg",
+      "PackagePath": "staticwebassets\\images\\variants\\18\\1db71407-dca8-4c75-8c1a-61d2ed32e7fa.jpg"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\images\\variants\\18\\8cd8eece-6142-452a-ac2a-f766abf8ebfb.jpg",
+      "PackagePath": "staticwebassets\\images\\variants\\18\\8cd8eece-6142-452a-ac2a-f766abf8ebfb.jpg"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\combo.js",
+      "PackagePath": "staticwebassets\\js\\combo.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\products-index.js",
+      "PackagePath": "staticwebassets\\js\\products-index.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\sidebar-toggle.js",
+      "PackagePath": "staticwebassets\\js\\sidebar-toggle.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MDUA.Web.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MDUA.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MDUA.Web.UI.props",
+      "PackagePath": "build\\MDUA.Web.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MDUA.Web.UI.props",
+      "PackagePath": "buildMultiTargeting\\MDUA.Web.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MDUA.Web.UI.props",
+      "PackagePath": "buildTransitive\\MDUA.Web.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

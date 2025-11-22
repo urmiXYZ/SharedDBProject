@@ -47,5 +47,11 @@ namespace MDUA.Facade.Interface
         List<VariantImage> GetVariantImages(int variantId);
         long AddVariantImage(int variantId, string imageUrl, string username);
         long DeleteVariantImage(int imageId);
+        // Add these signatures
+        ProductImage GetProductImage(int id);
+        VariantImage GetVariantImage(int id);
+        void SetProductImageAsPrimary(int imageId, int productId);
+        void UpdateProductImageSortOrder(int imageId, int sortOrder);
+        void UpdateVariantImageDisplayOrder(int imageId, int displayOrder);
     }
 }

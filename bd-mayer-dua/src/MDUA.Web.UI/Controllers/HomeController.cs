@@ -78,10 +78,6 @@ public class HomeController : Controller
     }
 
 
-
-
-
-
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Logout()

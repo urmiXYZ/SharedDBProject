@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj": {}
+    "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj": {
+    "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj",
+        "projectUniqueName": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj",
         "projectName": "MDUA.DataAccess",
-        "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Piistech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.DataAccess\\obj\\",
+        "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Piistech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj"
               },
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj"
               }
             }
           }
@@ -50,9 +49,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -73,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj": {
+    "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj",
+        "projectUniqueName": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj",
         "projectName": "MDUA.Entities",
-        "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj",
-        "packagesPath": "C:\\Users\\Piistech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\obj\\",
+        "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Piistech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,15 +98,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj"
               }
             }
           }
@@ -120,9 +118,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -143,24 +141,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj": {
+    "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj",
+        "projectUniqueName": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj",
         "projectName": "MDUA.Facade",
-        "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj",
-        "packagesPath": "C:\\Users\\Piistech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\obj\\",
+        "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Facade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Piistech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -169,21 +167,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.DataAccess\\MDUA.DataAccess.csproj"
               },
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Entities\\MDUA.Entities.csproj"
               },
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj"
               }
             }
           }
@@ -196,9 +193,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -219,24 +216,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
+    "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
+        "projectUniqueName": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
         "projectName": "MDUA.Framework",
-        "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
-        "packagesPath": "C:\\Users\\Piistech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Framework\\obj\\",
+        "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\MDUA.Framework.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Piistech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -245,7 +242,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -262,9 +258,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -327,24 +323,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj": {
+    "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj",
+        "projectUniqueName": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj",
         "projectName": "MDUA.Web.UI",
-        "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj",
-        "packagesPath": "C:\\Users\\Piistech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Web.UI\\obj\\",
+        "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\MDUA.Web.UI.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Web.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Piistech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -353,15 +349,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj": {
-                "projectPath": "C:\\Users\\Piistech\\Desktop\\SharedDBProject-main\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj"
+              "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj": {
+                "projectPath": "E:\\Class notes\\SharedDB\\SharedDBProject\\bd-mayer-dua\\src\\MDUA.Facade\\MDUA.Facade.csproj"
               }
             }
           }
@@ -374,9 +369,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -400,7 +395,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

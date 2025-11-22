@@ -55,19 +55,48 @@
 <div class="d-flex flex-wrap gap-3">
     @if (Model != null && Model.Any())
     {
-        foreach (var img in Model)
+        foreach (var img in Model.OrderBy(i => i.SortOrder)) // Display sorted
         {
-            <div class="card shadow-sm" style="width: 120px;">
+            <div class="card shadow-sm" style="width: 140px;">
                 @{
                     var imageSrc = img.ImageUrl.Replace("\\", "/");
                     if (!imageSrc.StartsWith("/")) { imageSrc = "/" + imageSrc; }
+                    var borderClass = img.IsPrimary ? "border-primary border-3" : "";
                 }
-                <div style="height: 100px; overflow: hidden; position: relative;">
+                <div class="position-relative @borderClass" style="height: 100px; overflow: hidden;">
                     <img src="@imageSrc" class="w-100 h-100" style="object-fit: cover;" alt="Product Image" />
+
+                    @if (img.IsPrimary)
+                    {
+                        <span class="position-absolute top-0 start-0 badge bg-primary m-1" style="font-size: 0.65rem;">Primary</span>
+                    }
                 </div>
-                <div class="card-footer p-1 text-center">
+
+                <div class="card-body p-2 bg-light">
+                    <div class="form-check mb-2" style="font-size: 0.8rem;">
+                        <input class="form-check-input js-set-primary" type="radio"
+                               name="primaryImageGroup"
+                               id="primary_@img.Id"
+                               data-id="@img.Id"
+                               data-product-id="@img.ProductId"
+                        @(img.IsPrimary ? "checked disabled" : "")>
+                        <label class="form-check-label" for="primary_@img.Id">
+                            Primary
+                        </label>
+                    </div>
+
+                    <div class="input-group input-group-sm mb-2">
+                        <span class="input-group-text px-1" style="font-size: 0.7rem;">Ord</span>
+                        <input type="number" class="form-control px-1 text-center js-update-order"
+                               value="@img.SortOrder"
+                               data-id="@img.Id"
+                               style="font-size: 0.8rem;">
+                    </div>
+                </div>
+
+                <div class="card-footer p-1 text-center bg-white">
                     <button type="button"
-                            class="btn btn-xs btn-danger w-100 js-delete-image"
+                            class="btn btn-xs btn-outline-danger w-100 js-delete-image"
                             data-id="@img.Id">
                         &times; Delete
                     </button>

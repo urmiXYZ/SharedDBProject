@@ -61,6 +61,17 @@ namespace MDUA.Web.UI.Controllers
             if (!_userLoginFacade.IsUserAuthorized(userId.Value, "Product.Add"))
                 return RedirectToAction("AccessDenied", "Home");
 
+            // 1. Generate Slug if empty
+            if (string.IsNullOrWhiteSpace(product.Slug))
+            {
+                product.Slug = GenerateSlug(product.ProductName);
+            }
+            else
+            {
+                // Ensure manually entered slugs are also URL-safe
+                product.Slug = GenerateSlug(product.Slug);
+            }
+
             long newProductId = _productFacade.AddProduct(
                 product,
                 HttpContext.Session.GetString("UserName"),
@@ -70,7 +81,24 @@ namespace MDUA.Web.UI.Controllers
             TempData[newProductId > 0 ? "Success" : "Error"] =
                 newProductId > 0 ? "Product added successfully!" : "Failed to add product.";
 
-            return RedirectToAction("Dashboard", "Home");
+            // Redirect to the 'AllProducts' action in the 'Product' controller
+            return RedirectToAction("AllProducts", "Product");
+        }
+
+        // Helper method to put inside your Controller
+        private string GenerateSlug(string phrase)
+        {
+            if (string.IsNullOrEmpty(phrase)) return string.Empty;
+
+            string str = phrase.ToLowerInvariant();
+            // Remove invalid characters
+            str = System.Text.RegularExpressions.Regex.Replace(str, @"[^a-z0-9\s-]", "");
+            // Convert multiple spaces into one space   
+            str = System.Text.RegularExpressions.Regex.Replace(str, @"\s+", " ").Trim();
+            // Replace spaces with hyphens
+            str = System.Text.RegularExpressions.Regex.Replace(str, @"\s", "-");
+
+            return str;
         }
 
         [Route("product/all")]
@@ -151,28 +179,28 @@ namespace MDUA.Web.UI.Controllers
             var userId = HttpContext.Session.GetInt32("UserId");
             if (userId == null) return Unauthorized();
 
-            // Make sure user is authorized to delete
-            if (!_userLoginFacade.IsUserAuthorized(userId.Value, "Product.Delete")) // Assuming "Product.Delete"
+            if (!_userLoginFacade.IsUserAuthorized(userId.Value, "Product.Delete"))
                 return Forbid();
 
             try
             {
-                // Your facade's Delete method will call the DA layer's Delete,
-                // which will trigger the 'ON DELETE CASCADE' in the database.
                 long result = _productFacade.Delete(productId);
 
                 if (result > 0)
                 {
+                    // ✅ ADD THIS LINE
+                    TempData["Success"] = "Product deleted successfully!";
+
+                    // The JS will reload the page, and the Layout will read the TempData above
                     return Json(new { success = true });
                 }
                 else
                 {
-                    return Json(new { success = false, message = "Product not found or could not be deleted." });
+                    return Json(new { success = false, message = "Product not found." });
                 }
             }
             catch (Exception ex)
             {
-                // This will catch errors, e.g., if a cascade delete is missing
                 return Json(new { success = false, message = "An error occurred: " + ex.Message });
             }
         }
@@ -448,14 +476,63 @@ namespace MDUA.Web.UI.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("product/set-primary-image")]
+        public IActionResult SetPrimaryImage(int imageId, int productId)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            _productFacade.SetProductImageAsPrimary(imageId, productId);
+            return Json(new { success = true });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/update-image-order")]
+        public IActionResult UpdateImageOrder(int imageId, int sortOrder)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            _productFacade.UpdateProductImageSortOrder(imageId, sortOrder);
+            return Json(new { success = true });
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         [Route("product/delete-image")]
         public IActionResult DeleteImage(int id)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
             if (userId == null) return Unauthorized();
 
-            // Optional: Get image path first and delete physical file here
+            // 1. Get the image details from DB before deleting
+            var img = _productFacade.GetProductImage(id);
 
+            if (img != null && !string.IsNullOrEmpty(img.ImageUrl))
+            {
+                try
+                {
+                    // 2. Construct the full physical path
+                    // img.ImageUrl looks like: "/images/products/105/abc.jpg"
+                    // We remove the leading "/" to combine correctly with WebRootPath
+                    string relativePath = img.ImageUrl.TrimStart('/', '\\');
+                    string physicalPath = Path.Combine(_webHostEnvironment.WebRootPath, relativePath);
+
+                    // 3. Delete the physical file
+                    if (System.IO.File.Exists(physicalPath))
+                    {
+                        System.IO.File.Delete(physicalPath);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Log error if needed, but continue to delete DB record
+                    // Console.WriteLine("File delete failed: " + ex.Message);
+                }
+            }
+
+            // 4. Delete from Database
             long result = _productFacade.DeleteProductImage(id);
 
             if (result > 0) return Json(new { success = true });
@@ -499,15 +576,54 @@ namespace MDUA.Web.UI.Controllers
             return Json(new { success = true });
         }
 
-        // 4. NEW: Delete Variant Image
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("product/delete-variant-image")]
         public IActionResult DeleteVariantImage(int id)
         {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            // 1. Get the image details
+            var img = _productFacade.GetVariantImage(id);
+
+            if (img != null && !string.IsNullOrEmpty(img.ImageUrl))
+            {
+                try
+                {
+                    // 2. Construct physical path
+                    string relativePath = img.ImageUrl.TrimStart('/', '\\');
+                    string physicalPath = Path.Combine(_webHostEnvironment.WebRootPath, relativePath);
+
+                    // 3. Delete file
+                    if (System.IO.File.Exists(physicalPath))
+                    {
+                        System.IO.File.Delete(physicalPath);
+                    }
+                }
+                catch
+                {
+                    // Ignore file errors, proceed to DB delete
+                }
+            }
+
+            // 4. Delete from Database
             _productFacade.DeleteVariantImage(id);
+
             return Json(new { success = true });
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("product/update-variant-image-order")]
+        public IActionResult UpdateVariantImageOrder(int imageId, int displayOrder)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return Unauthorized();
+
+            _productFacade.UpdateVariantImageDisplayOrder(imageId, displayOrder);
+
+            return Json(new { success = true });
+        }
     }
 }

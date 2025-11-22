@@ -14,3 +14,19 @@ C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.DataAccess\
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\refint\MDUA.DataAccess.dll
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.pdb
 C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\ref\MDUA.DataAccess.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.DataAccess.deps.json
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.DataAccess.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.DataAccess.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.Entities.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.Framework.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.Entities.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\bin\Debug\net9.0\MDUA.Framework.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.csproj.AssemblyReference.cache
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.csproj.CoreCompileInputs.cache
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.sourcelink.json
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.Dat.504AA89F.Up2Date
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\refint\MDUA.DataAccess.dll
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\MDUA.DataAccess.pdb
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.DataAccess\obj\Debug\net9.0\ref\MDUA.DataAccess.dll

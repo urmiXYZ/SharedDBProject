@@ -1,89 +1,86 @@
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\dashboard.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\combo.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-form.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\favicon.ico
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\combo.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\layout.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-details.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\login.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\site.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\site.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\products.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\admin-theme.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\products-index.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\variants.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\product.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-image.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\Piistech\Desktop\SharedDBProject-main\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\combo.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\sidebar-toggle.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\products-index.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\layout.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\combo.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.min.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\site.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\login.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-image.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\additional-methods.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\products.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\favicon.ico
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\site.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\js\product.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\product-details.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.slim.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\LICENSE.md
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\dist\jquery.min.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\jquery\LICENSE.txt
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\admin-theme.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\css\dashboard.css
+E:\Class notes\SharedDB\SharedDBProject\bd-mayer-dua\src\MDUA.Web.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 wwwroot\css\admin-theme.css
 wwwroot\css\combo.css
 wwwroot\css\dashboard.css
 wwwroot\css\layout.css
 wwwroot\css\login.css
 wwwroot\css\product-details.css
-wwwroot\css\product-form.css
 wwwroot\css\product-image.css
 wwwroot\css\products.css
 wwwroot\css\site.css
-wwwroot\css\variants.css
 wwwroot\favicon.ico
 wwwroot\images\all.webp
 wwwroot\images\combo.jpg
@@ -91,24 +88,21 @@ wwwroot\images\logo.jpg
 wwwroot\images\pic1.webp
 wwwroot\images\pic2.webp
 wwwroot\images\pic3.webp
-wwwroot\images\products\27\0efe1244-05e1-496e-adbd-ae2946fa292b.jpg
-wwwroot\images\products\27\e8c5f5ea-f6e1-4686-a937-23fc009c5065.jpg
-wwwroot\images\products\2\0ef64897-f21e-454a-bba7-a4485679c296.jpg
-wwwroot\images\products\2\bae19af8-0bcb-406e-8e54-128f4c605b50.jpg
-wwwroot\images\products\2\bf7774e9-5053-4fe2-a2a7-c45977c5de8a.jpg
-wwwroot\images\products\2\c838fe05-3b67-4601-9d22-7dcccdb223e7.jpg
-wwwroot\images\products\2\f7ab02ab-6094-4547-931f-1919adb4b7ad.jpg
-wwwroot\images\products\30eeb535-21d7-4760-9f4f-362b80a058a2.jpg
-wwwroot\images\products\51fa407a-e81e-45a2-8a9f-41117c2f932b.jpg
-wwwroot\images\variants\3\49021030-82e7-4dd7-b00e-0eeb01a14fbe.jpg
-wwwroot\images\variants\4\4e96ca26-b983-4355-867a-823109b08a92.jpg
-wwwroot\images\variants\5\ee462653-575b-44a1-b9f7-679bd7c70eac.jpg
-wwwroot\images\variants\6\c5b10ab8-52d3-4b7b-9787-fd50b0765bfb.jpg
+wwwroot\images\variants\18\1db71407-dca8-4c75-8c1a-61d2ed32e7fa.jpg
+wwwroot\images\variants\18\8cd8eece-6142-452a-ac2a-f766abf8ebfb.jpg
 wwwroot\js\combo.js
 wwwroot\js\product.js
 wwwroot\js\products-index.js
+wwwroot\js\sidebar-toggle.js
 wwwroot\js\site.js
-wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -133,14 +127,6 @@ wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
@@ -153,18 +139,19 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-wwwroot\lib\jquery-validation\LICENSE.md
-wwwroot\lib\jquery-validation\dist\additional-methods.js
-wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-wwwroot\lib\jquery-validation\dist\jquery.validate.js
-wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

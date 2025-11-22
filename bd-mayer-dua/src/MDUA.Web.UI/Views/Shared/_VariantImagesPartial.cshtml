@@ -53,19 +53,30 @@
 
 <div class="product-gallery-container">
     @if (Model != null && Model.Any())
-    {
-        foreach (var img in Model)
+    {@foreach (var img in Model.OrderBy(i => i.DisplayOrder)) // ✅ Display sorted
         {
-            <div class="card shadow-sm product-gallery-card">
-                <div class="product-gallery-image-wrapper">
-                    @{
-                        var src = img.ImageUrl.Replace("\\", "/");
-                        if (!src.StartsWith("/")) { src = "/" + src; }
-                    }
-                    <img src="@src" class="product-gallery-image" alt="Variant Image" />
+            <div class="card shadow-sm" style="width: 120px;">
+                @{
+                    var src = img.ImageUrl.Replace("\\", "/");
+                    if (!src.StartsWith("/")) { src = "/" + src; }
+                }
+                <div style="height: 90px; overflow: hidden; position: relative;">
+                    <img src="@src" class="w-100 h-100" style="object-fit: cover;" />
                 </div>
-                <div class="card-footer product-gallery-footer">
-                    <button type="button" class="btn btn-danger product-btn-delete js-del-var-img" data-id="@img.Id">
+
+                <div class="card-body p-1 bg-light">
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-text px-1" style="font-size: 0.7rem;">Ord</span>
+                        <input type="number" class="form-control px-1 text-center js-update-var-order"
+                               value="@img.DisplayOrder"
+                               data-id="@img.Id"
+                               data-variant-id="@img.VariantId"
+                               style="font-size: 0.8rem;">
+                    </div>
+                </div>
+
+                <div class="card-footer p-1 text-center">
+                    <button type="button" class="btn btn-xs text-danger w-100 js-del-var-img" data-id="@img.Id">
                         &times; Delete
                     </button>
                 </div>
